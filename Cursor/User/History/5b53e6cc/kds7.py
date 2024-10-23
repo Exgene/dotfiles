@@ -1,0 +1,18 @@
+import os
+import torch
+import torch.distributed.rpc as rpc
+from shared_functions import process_tensor
+
+
+def run_worker():
+    os.environ["MASTER_ADDR"] = "localhost"
+    os.environ["MASTER_PORT"] = "29500"
+
+    rpc.init_rpc("worker", rank=1, world_size=2)
+    print("Worker initialized")
+    # Waiting for requests
+    rpc.shutdown()
+
+
+if __name__ == "__main__":
+    run_worker()

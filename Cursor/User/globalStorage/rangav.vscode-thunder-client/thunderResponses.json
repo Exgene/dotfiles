@@ -1,0 +1,63 @@
+[
+    {
+        "_id": "7262a5d3-70b2-4de9-84e7-71be49f039a2",
+        "colId": "history",
+        "created": "2024-10-21T11:57:20.470Z",
+        "modified": "2024-10-21T12:03:03.094Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "json",
+            "headers": [
+                {
+                    "name": "content-type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "date",
+                    "value": "Mon, 21 Oct 2024 12:03:03 GMT"
+                },
+                {
+                    "name": "connection",
+                    "value": "close"
+                },
+                {
+                    "name": "transfer-encoding",
+                    "value": "chunked"
+                }
+            ],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://127.0.0.1:3000/get_books_by_title?title=To%20Kill%20a%20Mockingbird",
+            "status": 200,
+            "statusText": "OK",
+            "contentType": "application/json",
+            "contentLength": "88 Bytes",
+            "responseTimeText": "3 ms",
+            "responseTime": 3,
+            "responseSize": 88,
+            "preScriptTime": 0,
+            "preReqTime": 1,
+            "reqTime": 8,
+            "postScriptTime": 0,
+            "chartHTML": ""
+        },
+        "requestInfo": {
+            "reqUrl": "http://127.0.0.1:3000/get_books_by_title?title=To%20Kill%20a%20Mockingbird",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,56 @@
+---
+title: How does it work?
+description: How does x-cortex work?
+tableOfContents: false
+sidebar:
+  order: 3
+---
+
+To enhance clarity and organization, we can separate message retrieval and message sending into two distinct processes. This approach will simplify operations in the short term, with the potential for future consolidation.
+
+## SQLite Database Structure
+
+### Scheduled Messages
+
+- **Fields:** chatID, provider, time to send, message
+
+### Mapper
+
+*(Helper for identifying the correct chatID)*
+
+- Maps a number to a chatID
+- Maps username + provider to chatID
+- Maps group name + provider to chatID
+  - Note: Each group has a unique chatID, unlike individual users.
+
+### Chats
+
+Consider adding a provider column (e.g., WhatsApp, Telegram, Viber, etc.).
+
+| Chat ID | Message ID | Provider                | Sender | Time Sent | Message |
+| ------- | ---------- | ----------------------- | ------ | --------- | ------- |
+|         |            | WhatsApp / Telegram etc |        |           |         |
+
+| Forwarded     | Replying to Message | Attachment                  |
+| ------------- | ------------------- | --------------------------- |
+| True \| False | False \| Message ID | False \| Attachment Details |
+
+**Primary Key:** Chat ID + Message ID
+
+### Attachment Details
+
+- **Type:** Image, PDF, Other
+- **Size:** In bytes or megabytes
+- **Link:** (to the actual attachment)
+  - Attachments may be stored in a separate database or within the same one.
+- Additional details as necessary.
+
+### x-cortex Processing Queue
+
+---
+
+## Message Processing in x-cortex
+
+When a new message is added to the database, the corresponding chatID is added to the x-cortex processing queue, provided the sender is not "You" and the chatID is not already present. If x-cortex is available, it retrieves the previous x messages from the relevant chatID and creates scheduled messages as needed.
+
+---

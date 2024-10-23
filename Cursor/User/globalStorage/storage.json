@@ -1,0 +1,134 @@
+{
+    "userDataProfilesMigration": true,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/kausthubh/GitHub/mongodb-cursor": "3a9ffa3f",
+            "file:///home/kausthubh/GitHub/llm-optimization": "-7b920904",
+            "file:///home/kausthubh/GitHub/x-cortex-docs": "824da4a",
+            "file:///home/kausthubh/.cursor-tutor": "9826894",
+            "file:///home/kausthubh/GitHub/x-whatsapp": "-7b920904",
+            "file:///home/kausthubh/GitHub/x-dashboard": "-7b920904",
+            "file:///home/kausthubh/GitHub/spaghetti-code": "-7b920904"
+        },
+        "emptyWindows": {}
+    },
+    "profileAssociationsMigration": true,
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "24d0faf8f4b2abdbe49fca12aef3eb5d15e058c813b4691f39689dacd0ea250d",
+    "telemetry.devDeviceId": "fd3449f7-f56d-4ee2-a049-c1a3cbfc5e65",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/kausthubh/GitHub/x-whatsapp"
+            },
+            {
+                "folderUri": "file:///home/kausthubh/GitHub/spaghetti-code"
+            },
+            {
+                "folderUri": "file:///home/kausthubh/GitHub/x-dashboard"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1e1e1e",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1e1e1e",
+            "editorBackground": "#1e1e1e",
+            "titleBarBackground": "#1e1e1e",
+            "activityBarBackground": "#1e1e1e",
+            "sideBarBackground": "#1a1a1a",
+            "statusBarBackground": "#1e1e1e",
+            "statusBarNoFolderBackground": "#68217a"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 170,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/kausthubh/GitHub/spaghetti-code",
+            "backupPath": "/home/kausthubh/.config/Cursor/Backups/345122189d11e4961fe000c963664abe",
+            "uiState": {
+                "mode": 1,
+                "x": 4,
+                "y": 45,
+                "width": 952,
+                "height": 512
+            }
+        },
+        "openedWindows": [
+            {
+                "folder": "file:///home/kausthubh/GitHub/x-whatsapp",
+                "backupPath": "/home/kausthubh/.config/Cursor/Backups/8f79fff594b3ce47e67cd010ecfa243c",
+                "uiState": {
+                    "mode": 1,
+                    "x": 964,
+                    "y": 45,
+                    "width": 952,
+                    "height": 1031,
+                    "zoomLevel": 0
+                }
+            },
+            {
+                "folder": "file:///home/kausthubh/GitHub/x-dashboard",
+                "backupPath": "/home/kausthubh/.config/Cursor/Backups/a0de04797b357ed310cdedc40d40e8d8",
+                "uiState": {
+                    "mode": 1,
+                    "x": 4,
+                    "y": 565,
+                    "width": 952,
+                    "height": 511
+                }
+            },
+            {
+                "folder": "file:///home/kausthubh/GitHub/spaghetti-code",
+                "backupPath": "/home/kausthubh/.config/Cursor/Backups/345122189d11e4961fe000c963664abe",
+                "uiState": {
+                    "mode": 1,
+                    "x": 4,
+                    "y": 45,
+                    "width": 952,
+                    "height": 512
+                }
+            }
+        ]
+    },
+    "userDataProfiles": [
+        {
+            "location": "824da4a",
+            "name": "Svelte/SvelteKit",
+            "icon": "rocket"
+        },
+        {
+            "location": "-7b920904",
+            "name": "Python/Jupyter"
+        },
+        {
+            "location": "9826894",
+            "name": "JavaScript",
+            "icon": "rocket"
+        },
+        {
+            "location": "33d45164",
+            "name": "Java",
+            "icon": "rocket"
+        },
+        {
+            "location": "3a9ffa3f",
+            "name": "Mongo",
+            "icon": "rocket"
+        }
+    ]
+}

@@ -1,0 +1,319 @@
+[
+  {
+    "name": "Sachin",
+    "age": 25,
+    "gender": "Male",
+    "Hobbies": ["Walk", "Cricket"],
+    "identity": {
+      "hasPanCard": false,
+      "hasAdhaarCard": true
+    },
+    "bio": "I play cricket",
+    "experience": [
+      {
+        "company": "Spotify",
+        "duration": 3
+      },
+      {
+        "company": "Paytm",
+        "duration": 1
+      }
+    ]
+  },
+  {
+    "name": "Rahul",
+    "age": 18,
+    "gender": "Male",
+    "Hobbies": ["Walking", "Reading"],
+    "identity": {
+      "hasPanCard": false,
+      "hasAdhaarCard": true
+    },
+    "bio": "I am a artist and writer"
+  },
+  {
+    "name": "John",
+    "age": 21,
+    "gender": "Male",
+    "Hobbies": ["Walk", "Cricket"],
+    "identity": {
+      "hasPanCard": false,
+      "hasAdhaarCard": true
+    },
+    "bio": "I am a coder",
+    "experience": [
+      {
+        "company": "Times Internet",
+        "duration": 1
+      },
+      {
+        "company": "1 mg",
+        "duration": 1
+      },
+      {
+        "company": "Apple",
+        "duration": 2
+      }
+    ]
+  },
+  {
+    "name": "Rita",
+    "age": 19,
+    "gender": "Female",
+    "Hobbies": ["Anime"],
+    "identity": {
+      "hasPanCard": false,
+      "hasAdhaarCard": true
+    },
+    "bio": "I love movies"
+  },
+  {
+    "name": "Ram",
+    "age": 10,
+    "Hobbies": ["Walk", "Cricket"],
+    "identity": {
+      "hasPanCard": false,
+      "hasAdhaarCard": true
+    },
+    "bio": "I do nothing.",
+    "experience": [
+      {
+        "company": "KPMG",
+        "duration": 1
+      },
+      {
+        "company": "EY",
+        "duration": 1.5
+      },
+      {
+        "company": "TCS",
+        "duration": 0.5
+      }[{
+    "name": "Sachin",
+    "age": 25,
+    "gender":"Male",
+    "Hobbies": [
+      "Walk",
+      "Cricket"
+    ],
+    "identity": {
+      "hasPanCard": false,
+      "hasAdhaarCard": true
+    },
+    "bio": "I play cricket",
+    "experience": [
+      {
+        "company": "Spotify",
+        "duration": 3
+      },
+      {
+        "company": "Paytm",
+        "duration": 1
+      }
+    ]
+  },
+  {
+    "name": "Rahul",
+    "age": 18,
+    "gender":"Male",
+    "Hobbies": [
+      "Walking",
+      "Reading"
+    ],
+    "identity": {
+      "hasPanCard": false,
+      "hasAdhaarCard": true
+    },
+    "bio": "I am a artist and writer"
+  },
+  {
+    "name": "John",
+    "age": 21,
+    "gender":"Male",
+    "Hobbies": [
+      "Walk",
+      "Cricket"
+    ],
+    "identity": {
+      "hasPanCard": false,
+      "hasAdhaarCard": true
+    },
+    "bio": "I am a coder",
+    "experience": [
+      {
+        "company": "Times Internet",
+        "duration": 1
+      },
+      {
+        "company": "1 mg",
+        "duration": 1
+      },
+      {
+        "company": "Apple",
+        "duration": 2
+      }
+    ]
+  },
+  {
+    "name": "Rita",
+    "age": 19,
+    "gender":"Female",
+    "Hobbies": [
+      "Anime"
+    ],
+    "identity": {
+      "hasPanCard": false,
+      "hasAdhaarCard": true
+    },
+    "bio": "I love movies"
+  },
+  {
+    "name": "Ram",
+    "age": 10,
+    "Hobbies": [
+      "Walk",
+      "Cricket"
+    ],
+    "identity": {
+      "hasPanCard": false,
+      "hasAdhaarCard": true
+    },
+    "bio": "I do nothing.",
+    "experience": [
+      {
+        "company": "KPMG",
+        "duration": 1
+      },
+      {
+        "company": "EY",
+        "duration": 1.5
+      },
+      {
+        "company": "TCS",
+        "duration": 0.5
+      }
+    ]
+  },
+  {
+    "name": "Geeta",
+    "age": 24,
+    "gender":"Female",
+    "Hobbies": [
+      "Gaming",
+      "Cooking"
+    ],
+    "identity": {
+      "hasPanCard": false,
+      "hasAdhaarCard": true
+    },
+    "bio": "I code and play games.",
+    "experience": [
+      {
+        "company": "Spotify",
+        "duration": 1
+      },
+      {
+        "company": "Google",
+        "duration": 3.4
+      }
+    ]
+  },
+  {
+    "name": "Mariam",
+    "age":27,
+    "gender":"Female",
+    "bio": "I just code.",
+    "experience": [
+      {
+        "company": "Amazon",
+        "duration": 2
+      },
+      {
+        "company": "Flipkart",
+        "duration": 1
+      }
+    ],
+    "Hobbies": [
+      "Reading",
+      "Walking"
+    ]
+  },
+  {
+    "name": "Ravi",
+    "age": 17,
+    "gender":"Male",
+    "hobbies": [
+      "TV Shows"
+    ],
+    "hasMacBook": true,
+    "bio": "I am savage boi.",
+    "experience": [
+      {
+        "company": "Amazon",
+        "duration": 2
+      },
+      {
+        "company": "Google",
+        "duration": 3
+      }
+    ]
+  }]
+    ]
+  },
+  {
+    "name": "Geeta",
+    "age": 24,
+    "gender": "Female",
+    "Hobbies": ["Gaming", "Cooking"],
+    "identity": {
+      "hasPanCard": false,
+      "hasAdhaarCard": true
+    },
+    "bio": "I code and play games.",
+    "experience": [
+      {
+        "company": "Spotify",
+        "duration": 1
+      },
+      {
+        "company": "Google",
+        "duration": 3.4
+      }
+    ]
+  },
+  {
+    "name": "Mariam",
+    "age": 27,
+    "gender": "Female",
+    "bio": "I just code.",
+    "experience": [
+      {
+        "company": "Amazon",
+        "duration": 2
+      },
+      {
+        "company": "Flipkart",
+        "duration": 1
+      }
+    ],
+    "Hobbies": ["Reading", "Walking"]
+  },
+  {
+    "name": "Ravi",
+    "age": 17,
+    "gender": "Male",
+    "hobbies": ["TV Shows"],
+    "hasMacBook": true,
+    "bio": "I am savage boi.",
+    "experience": [
+      {
+        "company": "Amazon",
+        "duration": 2
+      },
+      {
+        "company": "Google",
+        "duration": 3
+      }
+    ]
+  }
+]

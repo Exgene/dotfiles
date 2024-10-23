@@ -1,0 +1,54 @@
+{
+  "workbench.activityBar.orientation": "vertical",
+  "editor.defaultFormatter": null,
+  "editor.fontFamily": "JetBrainsMono Nerd Font Mono ,Consolas, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.sortImports": "explicit"
+  },
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "javascript.format.semicolons": "insert",
+  "typescript.format.semicolons": "insert",
+  "css.format.maxPreserveNewLines": 2,
+  "less.format.maxPreserveNewLines": 2,
+  "scss.format.maxPreserveNewLines": 2,
+  "html.format.indentInnerHtml": true,
+  "html.format.indentHandlebars": true,
+  "html.format.maxPreserveNewLines": 2,
+  "workbench.iconTheme": "eq-material-theme-icons-darker",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "svelte": true,
+    "typescriptreact": true
+  },
+  //earlier I used to use other fomatters
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "notebook.formatOnSave.enabled": true,
+  "workbench.colorTheme": "Best Themes - Darcula Darker",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "git.autofetch": true,
+  "autoDocstring.docstringFormat": "numpy",
+  "python.analysis.stubPath": "\"\"",
+  "vim.leader": "<space>",
+  // Normal mode map from esc to capslock
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<capslock>"],
+      "after": ["<esc>"]
+    }
+  ],
+  "remote.autoForwardPortsSource": "hybrid",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "sync.gist": "7d8f4a8bf7a11ca0152a85ac3eb31579"
+}

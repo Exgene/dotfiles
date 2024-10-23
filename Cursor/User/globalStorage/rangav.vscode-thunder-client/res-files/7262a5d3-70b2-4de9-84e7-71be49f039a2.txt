@@ -1,0 +1,6 @@
+{
+  "title": "To Kill a Mockingbird",
+  "author": "Harper Lee",
+  "language": "English",
+  "year": 1960
+}
