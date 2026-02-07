@@ -1,0 +1,10 @@
+term = xterm-256color
+
+theme = Gruvbox Dark
+
+font-family = Ioskeley Mono
+font-style = Bold
+font-size = 14
+
+background-opacity = 1
+window-decoration = false

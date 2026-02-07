@@ -1,0 +1,198 @@
+add_newline = false
+
+format = """
+$username\
+$directory\
+$git_branch\
+$git_status\
+$fill\
+$c\
+$elixir\
+$elm\
+$golang\
+$haskell\
+$java\
+$julia\
+$nodejs\
+$nim\
+$rust\
+$scala\
+$conda\
+$python\
+$time\n  \
+[󱞪](fg:bright_blue) \
+"""
+
+palette = "gruvbox_dark"
+
+[palettes.gruvbox_dark]
+bg0 = "#1d2021"
+bg1 = "#3c3836"
+fg = "#ebdbb2"
+
+red = "#cc241d"
+green = "#98971a"
+yellow = "#d79921"
+blue = "#458588"
+magenta = "#b16286"
+cyan = "#689d6a"
+orange = "#d65d0e"
+
+comment = "#928374"
+
+bright_red = "#fb4934"
+bright_green = "#b8bb26"
+bright_yellow = "#fabd2f"
+bright_blue = "#83a598"
+bright_magenta = "#d3869b"
+bright_cyan = "#8ec07c"
+
+# palette = "tokyonight"
+#
+# [palettes.tokyonight]
+# bg0 = "#1a1b26"
+# bg1 = "#24283b"
+# fg = "#c0caf5"
+# red = "#f7768e"
+# green = "#9ece6a"
+# yellow = "#e0af68"
+# blue = "#7aa2f7"
+# magenta = "#bb9af7"
+# cyan = "#7dcfff"
+# orange = "#ff9e64"
+# comment = "#565f89"
+# bright_blue = "#7aa2f7"
+# bright_cyan = "#7dcfff"
+# bright_yellow = "#e0af68"
+# bright_magenta = "#bb9af7"
+# bright_green = "#9ece6a"
+
+[directory]
+format = "[](fg:bg1)[ $path ]($style)[](fg:bg1) "
+style = "bg:bg1 fg:blue"
+truncation_length = 3
+truncation_symbol = "../"
+
+[directory.substitutions]
+Documents = "󰈙"
+Downloads = " "
+Music = " "
+Pictures = " "
+
+[fill]
+style = "fg:bg1"
+symbol = " "
+
+[git_branch]
+format = "[](fg:bg1)[ $symbol $branch ]($style)[](fg:bg1) "
+style = "bg:bg1 fg:cyan"
+symbol = ""
+
+[git_status]
+disabled = true
+style = "bg:bg1 fg:red"
+format = '[](fg:bg1)([ $all_status$ahead_behind ]($style))[](fg:bg1) '
+up_to_date = '[ ✓ ](bg:bg1 fg:green)'
+untracked = '[?\($count\)](bg:bg1 fg:yellow)'
+stashed = '[$](bg:bg1 fg:blue)'
+modified = '[!\($count\)](bg:bg1 fg:orange)'
+renamed = '[»\($count\)](bg:bg1 fg:blue)'
+deleted = '[✘\($count\)](bg:bg1 fg:red)'
+staged = '[++\($count\)](bg:bg1 fg:green)'
+ahead = '[⇡\(${count}\)](bg:bg1 fg:yellow)'
+diverged = '⇕[\[](bg:bg1 fg:blue)[⇡\(${ahead_count}\)](bg:bg1 fg:yellow)[⇣\(${behind_count}\)](bg:bg1 fg:red)[\]](bg:bg1 fg:blue)'
+behind = '[⇣\(${count}\)](bg:bg1 fg:red)'
+
+[time]
+disabled = false
+format = "[](fg:bg1)[ $time 󰴈 ]($style)[](fg:bg1)"
+style = "bg:bg1 fg:magenta"
+time_format = "%I:%M%P"
+use_12hr = true
+
+[username]
+disabled = false
+format = "[](fg:bg1)[ 󰧱 $user ]($style)[](fg:bg1) "
+show_always = true
+style_root = "bg:bg1 fg:red"
+style_user = "bg:bg1 fg:cyan"
+
+# Languages
+
+[c]
+style = "bg:bg1 fg:blue"
+format = "[](fg:bg1)[$symbol$version]($style)[](fg:bg1) "
+disabled = false
+symbol = " "
+
+[elixir]
+style = "bg:bg1 fg:magenta"
+format = "[](fg:bg1)[$symbol$version]($style)[](fg:bg1) "
+disabled = false
+symbol = " "
+
+[elm]
+style = "bg:bg1 fg:green"
+format = "[](fg:bg1)[$symbol$version]($style)[](fg:bg1) "
+disabled = false
+symbol = " "
+
+[golang]
+style = "bg:bg1 fg:cyan"
+format = "[](fg:bg1)[$symbol$version]($style)[](fg:bg1) "
+disabled = false
+symbol = " "
+
+[haskell]
+style = "bg:bg1 fg:magenta"
+format = "[](fg:bg1)[$symbol$version]($style)[](fg:bg1) "
+disabled = false
+symbol = " "
+
+[java]
+style = "bg:bg1 fg:orange"
+format = "[](fg:bg1)[$symbol$version]($style)[](fg:bg1) "
+disabled = false
+symbol = " "
+
+[julia]
+style = "bg:bg1 fg:magenta"
+format = "[](fg:bg1)[$symbol$version]($style)[](fg:bg1) "
+disabled = false
+symbol = " "
+
+[nodejs]
+style = "bg:bg1 fg:green"
+format = "[](fg:bg1)[$symbol$version]($style)[](fg:bg1) "
+disabled = false
+symbol = "󰎙 "
+
+[nim]
+style = "bg:bg1 fg:yellow"
+format = "[](fg:bg1)[$symbol$version]($style)[](fg:bg1) "
+disabled = false
+symbol = "󰆥 "
+
+[rust]
+style = "bg:bg1 fg:red"
+format = "[](fg:bg1)[$symbol$version]($style)[](fg:bg1) "
+disabled = false
+symbol = ""
+
+[scala]
+style = "bg:bg1 fg:magenta"
+format = "[](fg:bg1)[$symbol$version]($style)[](fg:bg1) "
+disabled = false
+symbol = " "
+
+[python]
+style = "bg:bg1 fg:yellow"
+format = "[](fg:bg1)[$symbol$version]($style)[](fg:bg1) "
+disabled = false
+symbol = ' '
+
+[conda]
+style = "bg:bg1 fg:green"
+format = "[](fg:bg1)[$symbol$environment]($style)[](fg:bg1) "
+disabled = false
+symbol = '🅒 '
