@@ -11,7 +11,7 @@ end ---@diagnostic disable-next-line: undefined-field
 vim.opt.rtp:prepend(lazypath)
 
 -- My Custom Plugin Stuff
-require('custom')
+require 'custom'
 --
 
 vim.filetype.add {
@@ -38,6 +38,7 @@ require('lazy').setup({
   require 'plugins.neo-tree', -- done
   require 'plugins.gitsigns', -- done
   require 'plugins.md',
+  require 'plugins.leetcode',
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
