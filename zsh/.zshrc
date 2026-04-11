@@ -6,6 +6,7 @@ eval "$(starship init zsh)"
 source <(fzf --zsh)
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/plugins/zsh-system-clipboard/zsh-system-clipboard.zsh
+source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 bindkey '^ ' autosuggest-accept
 export ZSH_SYSTEM_CLIPBOARD_METHOD=wlc
@@ -14,11 +15,34 @@ HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 setopt appendhistory
+setopt EXTENDED_HISTORY    
+setopt SHARE_HISTORY       
+setopt HIST_IGNORE_ALL_DUPS
+setopt HIST_FIND_NO_DUPS  
+setopt HIST_IGNORE_SPACE 
+setopt HIST_REDUCE_BLANKS       
+setopt AUTO_CD                 
+setopt AUTO_PUSHD             
+setopt PUSHD_IGNORE_DUPS     
+
+# 1. Load the widgets
+autoload -U history-search-end
+zle -N history-beginning-search-backward-end history-search-end
+zle -N history-beginning-search-forward-end history-search-end
+
+bindkey -M vicmd 'k' history-beginning-search-backward-end
+bindkey -M vicmd 'j' history-beginning-search-forward-end
+
+bindkey -M viins "^[[A" history-beginning-search-backward-end
+bindkey -M viins "^[[B" history-beginning-search-forward-end
+
+bindkey "^[[A" history-beginning-search-backward-end
+bindkey "^[[B" history-beginning-search-forward-end
 
 # Set-up icons for files/folders in terminal using eza
-alias ls='eza -a --icons'
-alias ll='eza -al --icons'
-alias lt='eza -a --tree --level=2 --icons'
+# alias ls='eza -a --icons'
+# alias ll='eza -al --icons'
+# alias lt='eza -a --tree --level=2 --icons'
 alias t='sh ~/scripts/fzf_open.sh'
 
 eval "$(zoxide init zsh)"
@@ -48,8 +72,8 @@ esac
 eval ''
 
 # NVM setup
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+# export NVM_DIR="$HOME/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
 # Go setup
 export GOROOT=/usr/local/go
@@ -59,10 +83,10 @@ export PATH=$GOROOT/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 
 # bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
+# export BUN_INSTALL="$HOME/.bun"
+# export PATH="$BUN_INSTALL/bin:$PATH"
 # Cuda path
-export PATH=/usr/local/cuda/bin${PATH:+:${PATH}}
+# export PATH=/usr/local/cuda/bin${PATH:+:${PATH}}
 
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
