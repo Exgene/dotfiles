@@ -26,6 +26,7 @@ require('lazy').setup({
 
   require 'plugins.lsp', -- done
   require 'plugins.telescope', -- done
+  require 'plugins.fff',
   require 'plugins.conform', --done
   require 'plugins.whichkey', --done
   require 'plugins.mini', -- done

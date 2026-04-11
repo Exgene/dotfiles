@@ -83,21 +83,98 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 -- vim.keymap.set('n', '<A-]>', ':cnext<CR>', { desc = 'Next quickfix item' })
 -- vim.keymap.set('n', '<A-[>', ':cprev<CR>', { desc = 'Previous quickfix item' })
 
-vim.keymap.set('n', '<A-]>', function()
-  if #vim.fn.getloclist(0) > 0 then
-    vim.cmd 'lnext'
-  elseif #vim.fn.getqflist() > 0 then
-    vim.cmd 'cnext'
+local function jump_list(next_item)
+  local loc = vim.fn.getloclist(0, { size = 0, idx = 0 })
+  if loc.size > 0 then
+    if next_item then
+      if loc.idx >= loc.size then
+        vim.cmd 'lfirst'
+      else
+        vim.cmd 'lnext'
+      end
+    else
+      if loc.idx <= 1 then
+        vim.cmd 'llast'
+      else
+        vim.cmd 'lprev'
+      end
+    end
+    return
   end
+
+  local qf = vim.fn.getqflist({ size = 0, idx = 0 })
+  if qf.size > 0 then
+    if next_item then
+      if qf.idx >= qf.size then
+        vim.cmd 'cfirst'
+      else
+        vim.cmd 'cnext'
+      end
+    else
+      if qf.idx <= 1 then
+        vim.cmd 'clast'
+      else
+        vim.cmd 'cprev'
+      end
+    end
+  end
+end
+
+local function remove_list_entries(line1, line2)
+  local wininfo = vim.fn.getwininfo(vim.api.nvim_get_current_win())[1]
+  if not wininfo or wininfo.quickfix ~= 1 then
+    return
+  end
+
+  if wininfo.loclist == 1 then
+    local loc = vim.fn.getloclist(0, { items = 1, title = 1, context = 1 })
+    local items = loc.items or {}
+
+    for i = math.min(line2, #items), math.max(line1, 1), -1 do
+      table.remove(items, i)
+    end
+
+    vim.fn.setloclist(0, {}, 'r', {
+      title = loc.title,
+      context = loc.context,
+      items = items,
+    })
+    return
+  end
+
+  local qf = vim.fn.getqflist({ items = 1, title = 1, context = 1 })
+  local items = qf.items or {}
+
+  for i = math.min(line2, #items), math.max(line1, 1), -1 do
+    table.remove(items, i)
+  end
+
+  vim.fn.setqflist({}, 'r', {
+    title = qf.title,
+    context = qf.context,
+    items = items,
+  })
+end
+
+vim.keymap.set('n', '<A-]>', function()
+  jump_list(true)
 end)
 
 vim.keymap.set('n', '<A-[>', function()
-  if #vim.fn.getloclist(0) > 0 then
-    vim.cmd 'lprev'
-  elseif #vim.fn.getqflist() > 0 then
-    vim.cmd 'cprev'
-  end
+  jump_list(false)
 end)
+
+vim.api.nvim_create_autocmd('FileType', {
+  pattern = 'qf',
+  group = vim.api.nvim_create_augroup('quickfix-edit-maps', { clear = true }),
+  callback = function(args)
+    vim.keymap.set('x', 'D', function()
+      local line1 = vim.fn.line "'<"
+      local line2 = vim.fn.line "'>"
+      remove_list_entries(line1, line2)
+    end, { buffer = args.buf, desc = 'Remove selected quickfix/location entries' })
+  end,
+})
 
 -- vim.keymap.set('n', '<leader>e', function()
 --   vim.cmd 'Ex'

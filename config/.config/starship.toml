@@ -112,7 +112,8 @@ use_12hr = true
 
 [username]
 disabled = false
-format = "[](fg:bg1)[ 󰧱 $user ]($style)[](fg:bg1) "
+# format = "[](fg:bg1)[ 󰧱 $user ]($style)[](fg:bg1) "
+format = "[](fg:bg1)[ 󰧱 twitch.tv/_exgene ]($style)[](fg:bg1) "
 show_always = true
 style_root = "bg:bg1 fg:red"
 style_user = "bg:bg1 fg:cyan"
