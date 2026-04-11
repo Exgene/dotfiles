@@ -1,0 +1,7 @@
+2024/10/02 22:01:16 logger.go:19: ERROR: could not open a new TTY: open /dev/tty: no such device or address
+2024/10/02 22:01:21 logger.go:19: ERROR: could not open a new TTY: open /dev/tty: no such device or address
+2024/10/02 22:01:24 logger.go:19: ERROR: could not open a new TTY: open /dev/tty: no such device or address
+2024/10/02 22:03:49 logger.go:19: ERROR: could not open a new TTY: open /dev/tty: no such device or address
+2024/10/08 13:18:31 logger.go:19: ERROR: could not open a new TTY: open /dev/tty: no such device or address
+2025/05/15 23:04:49 logger.go:19: ERROR: exec: "wtype": executable file not found in $PATH
+2025/05/15 23:05:15 logger.go:19: ERROR: exec: "wtype": executable file not found in $PATH
