@@ -11,9 +11,7 @@ Google/
 JetBrains/
 Kvantum/
 MQTTX/
-QtProject.conf
 QtProject/
-Thunar/
 Unknown Organization/
 VSCodium - Insiders/
 VSCodium/
@@ -21,7 +19,6 @@ YouTube Music/
 _backups/
 abiword/
 ags/
-alacritty/
 arduino-ide/
 astro/
 autostart/
@@ -65,7 +62,6 @@ kitty-backup-back-up_1004_1804/
 kitty/
 kritadisplayrc
 kritarc
-lazygit/
 libreoffice/
 libvirt/
 menus/
@@ -73,7 +69,6 @@ microsoft-edge-beta/
 microsoft-edge-dev/
 microsoft-edge/
 mimeapps.list
-monitors.xml
 monitors.xml~
 neofetch/
 net.imput.helium/

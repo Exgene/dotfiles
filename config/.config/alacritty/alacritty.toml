@@ -1,0 +1,19 @@
+[env]
+TERM="xterm-256color"
+
+[general]
+live_config_reload = true
+
+[window]
+decorations = "Transparent"
+# opacity=0.8
+
+[font]
+normal = { family = "Ioskeley Mono", style = "Bold" }
+italic = { family = "Ioskeley Mono", style = "Italic" }
+size = 19.0
+
+[[keyboard.bindings]]
+key = "F"
+mods = "Control"
+chars = "f\r"
