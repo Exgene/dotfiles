@@ -1,0 +1,9 @@
+session_sort_order = "LastAttached"
+bookmarks = [
+    "${HOME}/.config/nvim",
+    "${HOME}/.config/hypr",
+]
+
+[[search_dirs]]
+path = "/home/kausthubh/GitHub/"
+depth = 2
