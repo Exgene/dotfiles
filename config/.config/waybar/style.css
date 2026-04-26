@@ -17,17 +17,19 @@
 }
 
 #waybar {
-	background-color: @outline;
+	background: linear-gradient(180deg, alpha(@nord2, 0.35), alpha(@nord0, 0.65));
 }
 #waybar > box {
-	margin: 4px;
+	margin: 5px;
 	background-color: @main-bg;
+	border: 1px solid @main-br;
+	border-radius: 14px;
 }
 
 button {
-	border-radius: 16px;
+	border-radius: 12px;
 	min-width: 16px;
-	padding: 0 10px;
+	padding: 0 9px;
 }
 button:hover {
 	background-color: @hover-bg;
@@ -35,9 +37,9 @@ button:hover {
 }
 
 tooltip {
-	border: 2px solid @main-br;
-	border-radius: 10px;
-	background-color: @main-bg;
+	border: 1px solid @main-br;
+	border-radius: 8px;
+	background-color: @nord1;
 }
 tooltip > box {
 	padding: 0 6px;

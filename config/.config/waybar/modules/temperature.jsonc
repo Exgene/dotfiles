@@ -1,6 +1,6 @@
 {
 	"temperature": {
-		"thermal-zone": 1,
+		"thermal-zone": 0,
 		// "hwmon-path":
 		// "hwmon-path-abs":
 		// "input-filename":

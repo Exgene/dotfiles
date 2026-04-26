@@ -41,10 +41,23 @@ get_helper() {
 check_updates() {
 	local pac_output pac_status
 
-	pac_output=$(timeout $TIMEOUT checkupdates)
-	pac_status=$?
+	if command -v checkupdates > /dev/null; then
+		pac_output=$(timeout $TIMEOUT checkupdates)
+		pac_status=$?
 
-	if ((pac_status != 0 && pac_status != 2)); then
+		if ((pac_status != 0 && pac_status != 2)); then
+			FAILURE=true
+			return 1
+		fi
+	elif command -v pacman > /dev/null; then
+		pac_output=$(timeout $TIMEOUT pacman -Qu)
+		pac_status=$?
+
+		if ((pac_status != 0)); then
+			FAILURE=true
+			return 1
+		fi
+	else
 		FAILURE=true
 		return 1
 	fi
@@ -88,7 +101,7 @@ display_module() {
 
 	if $FAILURE; then
 		icon='󰒑'
-		tooltip="Cannot fetch updates. Right-click to retry."
+		tooltip="Cannot fetch updates. Install pacman-contrib or check your package manager."
 	elif ((PAC_UPD + AUR_UPD == 0)); then
 		icon='󰸟'
 		tooltip="No updates available"
