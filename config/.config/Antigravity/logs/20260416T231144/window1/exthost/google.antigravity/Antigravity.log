@@ -1,0 +1,117 @@
+2026-04-16 23:11:51.083 [info] I0416 23:11:51.082723 220004 server.go:1221] Starting language server process with pid 220004
+2026-04-16 23:11:51.083 [info] I0416 23:11:51.082904 220004 server.go:295] Setting GOMAXPROCS to 4
+2026-04-16 23:11:51.084 [info] I0416 23:11:51.084563 220004 server.go:441] Language server will attempt to listen on host 127.0.0.1
+2026-04-16 23:11:51.084 [info] I0416 23:11:51.084868 220004 server.go:455] Language server listening on random port at 43337 for HTTPS (gRPC)
+2026-04-16 23:11:51.085 [info] I0416 23:11:51.084911 220004 server.go:462] Language server listening on random port at 34639 for HTTP
+2026-04-16 23:11:52.001 [info] I0416 23:11:52.001681 220004 server.go:434] Created extension server client at port 36781
+2026-04-16 23:11:52.022 [info] I0416 23:11:52.021995 220004 cascade_manager.go:772] Reactive state is disabled
+2026-04-16 23:11:52.043 [info] (Antigravity) 2026-04-16 23:11:52.042 [INFO]: Language server started
+2026-04-16 23:11:52.064 [info] I0416 23:11:52.056207 220004 server.go:1679] initialized server successfully in 973.283709ms
+2026-04-16 23:11:52.080 [info] E0416 23:11:52.080605 220004 server.go:545] Failed to get OAuth token: error getting token source from auth provider: state syncing error: key not found
+2026-04-16 23:11:52.080 [info] W0416 23:11:52.080685 220004 client.go:167] failed to set auth token
+2026-04-16 23:11:52.085 [info] W0416 23:11:52.083867 220004 log_context.go:118] Cache(userInfo): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-04-16 23:11:52.090 [info] (Antigravity) 2026-04-16 23:11:52.090 [INFO]: LS lspClient started successfully
+2026-04-16 23:12:36.613 [info] I0416 23:12:36.613506 220004 server.go:1856] Got signal terminated, shutting down
+2026-04-16 23:12:36.613 [info] I0416 23:12:36.613596 220004 server.go:1882] Language server shutting down
+2026-04-16 23:12:36.646 [info] (Antigravity) 2026-04-16 23:12:36.646 [INFO]: Language server exited with code 0
+2026-04-16 23:12:36.782 [info] I0416 23:12:36.781862 220926 server.go:1221] Starting language server process with pid 220926
+2026-04-16 23:12:36.782 [info] I0416 23:12:36.781983 220926 server.go:295] Setting GOMAXPROCS to 4
+2026-04-16 23:12:36.783 [info] I0416 23:12:36.783538 220926 server.go:441] Language server will attempt to listen on host 127.0.0.1
+2026-04-16 23:12:36.784 [info] I0416 23:12:36.783932 220926 server.go:455] Language server listening on fixed port at 43337 for HTTPS (gRPC)
+2026-04-16 23:12:36.784 [info] I0416 23:12:36.783975 220926 server.go:462] Language server listening on fixed port at 36455 for HTTP
+2026-04-16 23:12:37.910 [info] I0416 23:12:37.910734 220926 server.go:434] Created extension server client at port 36781
+2026-04-16 23:12:37.921 [info] I0416 23:12:37.920883 220926 cascade_manager.go:772] Reactive state is disabled
+2026-04-16 23:12:37.935 [info] (Antigravity) 2026-04-16 23:12:37.934 [INFO]: Language server started
+2026-04-16 23:12:37.938 [info] I0416 23:12:37.937806 220926 server.go:1679] initialized server successfully in 1.155786889s
+2026-04-16 23:12:37.942 [info] E0416 23:12:37.941852 220926 server.go:545] Failed to get OAuth token: error getting token source from auth provider: state syncing error: key not found
+2026-04-16 23:12:37.942 [info] W0416 23:12:37.941928 220926 client.go:167] failed to set auth token
+2026-04-16 23:12:37.946 [info] W0416 23:12:37.945905 220926 log_context.go:118] Cache(userInfo): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-04-16 23:12:37.956 [info] (Antigravity) 2026-04-16 23:12:37.955 [INFO]: LS lspClient started successfully
+2026-04-16 23:12:41.611 [info] I0416 23:12:41.611308 220926 server.go:1856] Got signal terminated, shutting down
+2026-04-16 23:12:41.611 [info] I0416 23:12:41.611353 220926 server.go:1882] Language server shutting down
+2026-04-16 23:12:41.629 [info] (Antigravity) 2026-04-16 23:12:41.629 [INFO]: Language server exited with code 0
+2026-04-16 23:12:41.727 [info] I0416 23:12:41.727380 220959 server.go:1221] Starting language server process with pid 220959
+2026-04-16 23:12:41.727 [info] I0416 23:12:41.727479 220959 server.go:295] Setting GOMAXPROCS to 4
+2026-04-16 23:12:41.728 [info] I0416 23:12:41.728481 220959 server.go:441] Language server will attempt to listen on host 127.0.0.1
+2026-04-16 23:12:41.728 [info] I0416 23:12:41.728701 220959 server.go:455] Language server listening on fixed port at 43337 for HTTPS (gRPC)
+2026-04-16 23:12:41.728 [info] I0416 23:12:41.728742 220959 server.go:462] Language server listening on fixed port at 34717 for HTTP
+2026-04-16 23:12:42.635 [info] I0416 23:12:42.635733 220959 server.go:434] Created extension server client at port 36781
+2026-04-16 23:12:42.641 [info] I0416 23:12:42.641282 220959 cascade_manager.go:772] Reactive state is disabled
+2026-04-16 23:12:42.649 [info] (Antigravity) 2026-04-16 23:12:42.648 [INFO]: Language server started
+2026-04-16 23:12:42.652 [info] I0416 23:12:42.651693 220959 server.go:1679] initialized server successfully in 924.188588ms
+2026-04-16 23:12:42.670 [info] (Antigravity) 2026-04-16 23:12:42.670 [INFO]: LS lspClient started successfully
+2026-04-16 23:12:44.978 [info] I0416 23:12:44.977914 220959 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa9ddd811160a71da
+2026-04-16 23:12:45.925 [info] I0416 23:12:45.924568 220959 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc4ece9d6cd3daf39
+2026-04-16 23:13:15.804 [info] I0416 23:13:15.803655 223367 server.go:1221] Starting language server process with pid 223367
+2026-04-16 23:13:15.805 [info] I0416 23:13:15.803736 223367 server.go:295] Setting GOMAXPROCS to 4
+2026-04-16 23:13:15.805 [info] I0416 23:13:15.805213 223367 server.go:441] Language server will attempt to listen on host 127.0.0.1
+2026-04-16 23:13:15.805 [info] I0416 23:13:15.805529 223367 server.go:455] Language server listening on random port at 32815 for HTTPS (gRPC)
+2026-04-16 23:13:15.805 [info] I0416 23:13:15.805572 223367 server.go:462] Language server listening on random port at 41397 for HTTP
+2026-04-16 23:13:16.708 [info] I0416 23:13:16.708168 223367 server.go:434] Created extension server client at port 37079
+2026-04-16 23:13:16.728 [info] I0416 23:13:16.728555 223367 cascade_manager.go:772] Reactive state is disabled
+2026-04-16 23:13:16.740 [info] (Antigravity) 2026-04-16 23:13:16.739 [INFO]: Language server started
+2026-04-16 23:13:16.777 [info] I0416 23:13:16.763309 223367 server.go:1679] initialized server successfully in 959.536656ms
+2026-04-16 23:13:16.812 [info] (Antigravity) 2026-04-16 23:13:16.812 [INFO]: LS lspClient started successfully
+2026-04-16 23:13:18.965 [info] I0416 23:13:18.965569 223367 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8f87e571534369a
+2026-04-16 23:13:19.900 [info] I0416 23:13:19.900309 223367 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x185ccb99754bb294
+2026-04-16 23:39:24.628 [info] (Antigravity) 2026-04-16 23:39:24.628 [INFO]: [Terminal] Command completed: git status exit code 0
+2026-04-16 23:39:26.016 [info] (Antigravity) 2026-04-16 23:39:26.015 [INFO]: [Terminal] Command completed: git add . exit code 0
+2026-04-16 23:39:37.692 [info] (Antigravity) 2026-04-16 23:39:37.692 [INFO]: [Terminal] Command completed: git commit -m "fix: flashing issues in /series page" exit code 0
+2026-04-16 23:39:39.065 [info] I0416 23:39:39.065488 223367 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc5b1e7a214da5126
+2026-04-16 23:39:39.882 [info] I0416 23:39:39.882500 223367 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xdc44ef248a6a652b
+2026-04-17 19:52:35.192 [info] I0417 19:52:35.192166 223367 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xafa883ee5da97a76
+2026-04-17 19:52:38.090 [info] I0417 19:52:38.089966 223367 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x4d9036a2346235aa
+2026-04-17 23:43:47.187 [info] I0417 23:43:47.184800 223367 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x67e84bca2aec4a97
+2026-04-17 23:43:48.998 [info] I0417 23:43:48.998128 223367 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x157b1758e36b1dd7
+2026-04-18 23:56:05.099 [info] (Antigravity) 2026-04-18 23:56:05.098 [INFO]: [Terminal] Command completed: git status exit code 0
+2026-04-18 23:56:06.650 [info] (Antigravity) 2026-04-18 23:56:06.650 [INFO]: [Terminal] Command completed: git add . exit code 0
+2026-04-18 23:56:16.962 [info] (Antigravity) 2026-04-18 23:56:16.961 [INFO]: [Terminal] Command completed: git commit -m "refactor: migrate to CLOB v2" exit code 0
+2026-04-18 23:56:17.920 [info] I0418 23:56:17.919816 223367 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x6172eb782b864ebc
+2026-04-18 23:56:18.317 [info] I0418 23:56:18.316654 223367 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd5f378b7ba849145
+2026-04-19 00:01:54.647 [info] (Antigravity) 2026-04-19 00:01:54.646 [INFO]: [Terminal] Command completed: pnpm dev exit code 0
+2026-04-19 00:24:13.078 [info] (Antigravity) 2026-04-19 00:24:13.078 [INFO]: [Terminal] Command completed: npx tsx scripts/manage-collateral.ts wrap
+ exit code 1
+2026-04-19 00:24:39.598 [info] (Antigravity) 2026-04-19 00:24:39.598 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-04-19 00:24:56.960 [info] (Antigravity) 2026-04-19 00:24:56.960 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-04-19 00:25:34.859 [info] (Antigravity) 2026-04-19 00:25:34.859 [INFO]: [Terminal] Command completed: npx tsx scripts/manage-collateral.ts wrap
+ exit code 1
+2026-04-19 00:25:42.542 [info] (Antigravity) 2026-04-19 00:25:42.542 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-04-19 00:25:42.604 [info] (Antigravity) 2026-04-19 00:25:42.604 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-04-19 00:28:10.209 [info] (Antigravity) 2026-04-19 00:28:10.209 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-04-19 00:28:11.245 [info] (Antigravity) 2026-04-19 00:28:11.245 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-04-19 00:28:12.943 [info] (Antigravity) 2026-04-19 00:28:12.942 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-04-19 00:28:13.185 [info] (Antigravity) 2026-04-19 00:28:13.185 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-04-19 00:28:13.384 [info] (Antigravity) 2026-04-19 00:28:13.384 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-04-19 00:28:13.546 [info] (Antigravity) 2026-04-19 00:28:13.546 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-04-19 00:28:13.992 [info] (Antigravity) 2026-04-19 00:28:13.992 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-04-19 00:28:14.258 [info] (Antigravity) 2026-04-19 00:28:14.258 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-04-19 00:28:14.488 [info] (Antigravity) 2026-04-19 00:28:14.488 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-04-19 00:28:14.884 [info] (Antigravity) 2026-04-19 00:28:14.883 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-04-19 00:28:15.294 [info] (Antigravity) 2026-04-19 00:28:15.294 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-04-19 00:28:15.486 [info] (Antigravity) 2026-04-19 00:28:15.485 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-04-19 00:28:15.653 [info] (Antigravity) 2026-04-19 00:28:15.653 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-04-19 00:28:15.797 [info] (Antigravity) 2026-04-19 00:28:15.797 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-04-19 00:28:15.934 [info] (Antigravity) 2026-04-19 00:28:15.934 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-04-19 00:28:16.347 [info] (Antigravity) 2026-04-19 00:28:16.347 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-04-19 00:28:24.859 [info] (Antigravity) 2026-04-19 00:28:24.859 [INFO]: [Terminal] Command completed: curl -X POST http://localhost:3000/api/wrap
+ exit code 0
+2026-04-19 00:37:17.672 [info] (Antigravity) 2026-04-19 00:37:17.672 [INFO]: [Terminal] Command completed: curl -X POST http://localhost:3000/api/wrap
+ exit code 0
+2026-04-19 00:37:27.439 [info] (Antigravity) 2026-04-19 00:37:27.439 [INFO]: [Terminal] Command completed: curl -X POST http://localhost:3000/api/wrap
+ exit code 0
+2026-04-19 00:37:35.274 [info] (Antigravity) 2026-04-19 00:37:35.274 [INFO]: [Terminal] Command completed: curl -X POST http://localhost:3000/api/wrap
+ exit code 0
+2026-04-19 00:38:47.949 [info] (Antigravity) 2026-04-19 00:38:47.948 [INFO]: [Terminal] Command completed: curl -X POST http://localhost:3000/api/wrap
+ exit code 0
+2026-04-19 00:38:53.520 [info] (Antigravity) 2026-04-19 00:38:53.519 [INFO]: [Terminal] Command completed: curl -X POST http://localhost:3000/api/wrap
+ exit code 0
+2026-04-19 00:40:52.923 [info] (Antigravity) 2026-04-19 00:40:52.923 [INFO]: [Terminal] Command completed: curl -X POST http://localhost:3000/api/wrap
+ exit code 0
+2026-04-19 00:44:03.002 [info] (Antigravity) 2026-04-19 00:44:03.002 [INFO]: [Terminal] Command completed: git status exit code 0
+2026-04-19 00:44:09.642 [info] (Antigravity) 2026-04-19 00:44:09.641 [INFO]: [Terminal] Command completed: git clean -df . exit code 0
+2026-04-19 02:27:26.712 [info] (Antigravity) 2026-04-19 02:27:26.712 [INFO]: [Terminal] Command completed: pnpm dev exit code 0
+2026-04-19 02:36:54.252 [info] (Antigravity) 2026-04-19 02:36:54.252 [INFO]: [Terminal] Command completed: pnpm dev exit code 0
+2026-04-19 02:36:57.239 [info] (Antigravity) 2026-04-19 02:36:57.239 [INFO]: [Terminal] Command completed: git status exit code 0
+2026-04-19 02:37:01.828 [info] (Antigravity) 2026-04-19 02:37:01.828 [INFO]: [Terminal] Command completed: git add . && git commit -m "CURSOR OVER" exit code 0
+2026-04-19 02:37:03.357 [info] I0419 02:37:03.357718 223367 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x18504e58e1552b34
+2026-04-19 02:37:04.220 [info] I0419 02:37:04.220571 223367 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x39a00ff2536b286b

@@ -1,0 +1,20 @@
+2026-04-19 18:16:12.117 [info] I0419 18:16:12.115737 391688 server.go:1221] Starting language server process with pid 391688
+2026-04-19 18:16:12.117 [info] I0419 18:16:12.115824 391688 server.go:295] Setting GOMAXPROCS to 4
+2026-04-19 18:16:12.117 [info] I0419 18:16:12.117350 391688 server.go:441] Language server will attempt to listen on host 127.0.0.1
+2026-04-19 18:16:12.117 [info] I0419 18:16:12.117631 391688 server.go:455] Language server listening on random port at 33383 for HTTPS (gRPC)
+2026-04-19 18:16:12.117 [info] I0419 18:16:12.117676 391688 server.go:462] Language server listening on random port at 43275 for HTTP
+2026-04-19 18:16:13.233 [info] I0419 18:16:13.232802 391688 server.go:434] Created extension server client at port 42983
+2026-04-19 18:16:13.255 [info] I0419 18:16:13.255790 391688 cascade_manager.go:772] Reactive state is disabled
+2026-04-19 18:16:13.268 [info] (Antigravity) 2026-04-19 18:16:13.266 [INFO]: Language server started
+2026-04-19 18:16:13.308 [info] I0419 18:16:13.291771 391688 server.go:1679] initialized server successfully in 1.175926287s
+2026-04-19 18:16:13.333 [info] (Antigravity) 2026-04-19 18:16:13.333 [INFO]: LS lspClient started successfully
+2026-04-19 18:16:15.825 [info] I0419 18:16:15.825668 391688 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa23f7c4d34852936
+2026-04-19 18:16:16.825 [info] I0419 18:16:16.824755 391688 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x280ae5702ea7adef
+2026-04-19 18:16:17.966 [info] I0419 18:16:17.966473 391688 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x616687a9238f582f
+2026-04-19 18:22:42.554 [info] (Antigravity) 2026-04-19 18:22:42.553 [INFO]: [Terminal] Command completed: git status exit code 0
+2026-04-19 18:23:01.598 [info] (Antigravity) 2026-04-19 18:23:01.598 [INFO]: [Terminal] Command completed: git add . && git commit -m "style: update look of open orders" exit code 0
+2026-04-19 18:23:04.167 [info] I0419 18:23:04.167685 391688 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb8871ab8c7cdfcaf
+2026-04-19 18:23:04.272 [info] I0419 18:23:04.271991 391688 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3ee0aba316bb7705
+2026-04-19 18:49:48.966 [info] (Antigravity) 2026-04-19 18:49:48.966 [INFO]: [Terminal] Command completed: git add . && git commit -m "feat: reload per page and perf fixes" exit code 0
+2026-04-19 18:49:50.363 [info] I0419 18:49:50.362924 391688 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1da7984386c6f4f7
+2026-04-19 18:49:50.593 [info] I0419 18:49:50.593467 391688 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa3d22e0c38b7a486

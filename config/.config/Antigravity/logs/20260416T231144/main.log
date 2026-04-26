@@ -1,0 +1,75 @@
+2026-04-16 23:11:44.826 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-04-16 23:11:44.886 [info] update#setState idle
+2026-04-16 23:11:44.892 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:43917
+2026-04-16 23:11:44.949 [info] [OAuthTokenLifecycle] Starting one-time OAuth token migration from legacy state sync
+2026-04-16 23:11:44.950 [info] [OAuthTokenLifecycle] No agent manager init state found, skipping migration
+2026-04-16 23:11:44.950 [info] [OverrideStoreLifecycle] Migrating secure mode from agent preferences to override store
+2026-04-16 23:11:45.081 [info] Started initializing default profile extensions in extensions installation folder. file:///home/kausthubh/.antigravity/extensions
+2026-04-16 23:11:45.087 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/kausthubh/.antigravity/extensions
+2026-04-16 23:11:46.621 [info] [SidebarWorkspacesLifecycle] Running one-time migration from agent manager init state
+2026-04-16 23:11:46.621 [info] [SidebarWorkspacesLifecycle] No agent manager init state found, skipping migration
+2026-04-16 23:11:46.622 [info] [SidebarWorkspacesLifecycle] Running scratch workspace cleanup migration
+2026-04-16 23:11:46.622 [info] [SidebarWorkspacesLifecycle] No empty scratch workspaces to clean up
+2026-04-16 23:11:49.028 [info] [ArtifactReviewLifecycle] Running one-time migration from agent manager init state
+2026-04-16 23:11:49.029 [info] [ArtifactReviewLifecycle] No agent manager init state found, skipping migration
+2026-04-16 23:12:14.887 [info] update#setState checking for updates
+2026-04-16 23:12:15.281 [info] update#setState idle
+2026-04-16 23:13:07.082 [info] Extension host with pid 219745 exited with code: 0, signal: unknown.
+2026-04-16 23:13:12.606 [info] Extension host with pid 223012 exited with code: 0, signal: unknown.
+2026-04-16 23:13:55.484 [info] [AgentManagerWindowLifecycle] Running one-time migration from agent manager init state
+2026-04-16 23:13:55.485 [info] [AgentManagerWindowLifecycle] No agent manager init state found, skipping migration
+2026-04-17 00:12:14.889 [info] update#setState checking for updates
+2026-04-17 00:12:15.562 [info] update#setState idle
+2026-04-17 01:12:14.892 [info] update#setState checking for updates
+2026-04-17 01:12:15.194 [info] update#setState idle
+2026-04-17 19:35:59.800 [warning] No ptyHost heartbeat after 6 seconds
+2026-04-17 19:54:52.538 [info] update#setState checking for updates
+2026-04-17 19:54:53.286 [info] update#setState idle
+2026-04-17 20:54:52.539 [info] update#setState checking for updates
+2026-04-17 20:54:53.204 [info] update#setState idle
+2026-04-17 21:54:52.542 [info] update#setState checking for updates
+2026-04-17 21:54:53.142 [info] update#setState idle
+2026-04-17 22:54:52.545 [info] update#setState checking for updates
+2026-04-17 22:54:53.118 [info] update#setState idle
+2026-04-17 23:54:52.547 [info] update#setState checking for updates
+2026-04-17 23:54:52.861 [info] update#setState idle
+2026-04-18 00:54:52.549 [info] update#setState checking for updates
+2026-04-18 00:54:52.910 [info] update#setState idle
+2026-04-18 01:54:52.576 [info] update#setState checking for updates
+2026-04-18 01:54:52.919 [info] update#setState idle
+2026-04-18 11:52:32.655 [info] update#setState checking for updates
+2026-04-18 11:52:33.433 [info] update#setState idle
+2026-04-18 12:52:32.659 [info] update#setState checking for updates
+2026-04-18 12:52:33.294 [info] update#setState idle
+2026-04-18 19:02:55.584 [info] update#setState checking for updates
+2026-04-18 19:02:56.153 [info] update#setState idle
+2026-04-18 20:19:24.467 [info] update#setState checking for updates
+2026-04-18 20:19:25.165 [info] update#setState idle
+2026-04-18 21:19:24.495 [info] update#setState checking for updates
+2026-04-18 21:19:25.102 [info] update#setState idle
+2026-04-18 23:46:46.542 [info] [BrowserLauncherMain] Launching browser...
+2026-04-18 23:46:46.585 [info] [BrowserLauncherMain] No Chrome with CDP found on port 9222.
+2026-04-18 23:46:46.610 [info] [BrowserLauncherMain] Launching browser with command: "/usr/bin/google-chrome" --remote-debugging-port=9222 --user-data-dir=/home/kausthubh/.gemini/antigravity-browser-profile --disable-fre --no-default-browser-check --no-first-run --auto-accept-browser-signin-for-tests --ash-no-nudges --disable-features=OfferMigrationToDiceUsers,OptGuideOnDeviceModel
+2026-04-18 23:46:46.646 [info] [BrowserLauncherMain] No Chrome with CDP found on port 9222.
+2026-04-18 23:46:47.172 [info] [BrowserLauncherMain] No Chrome with CDP found on port 9222.
+2026-04-18 23:46:47.700 [info] [BrowserLauncherMain] Chrome with CDP is already running on port 9222.
+2026-04-18 23:46:47.700 [info] [BrowserLauncherMain] Successfully launched browser.
+2026-04-18 23:51:37.778 [info] update#setState checking for updates
+2026-04-18 23:51:38.422 [info] update#setState idle
+2026-04-19 00:51:37.779 [info] update#setState checking for updates
+2026-04-19 00:51:38.382 [info] update#setState idle
+2026-04-19 01:24:27.511 [info] [BrowserLauncherMain] Launching browser...
+2026-04-19 01:24:27.536 [info] [BrowserLauncherMain] No Chrome with CDP found on port 9222.
+2026-04-19 01:24:27.549 [info] [BrowserLauncherMain] Launching browser with command: "/usr/bin/google-chrome" --remote-debugging-port=9222 --user-data-dir=/home/kausthubh/.gemini/antigravity-browser-profile --disable-fre --no-default-browser-check --no-first-run --auto-accept-browser-signin-for-tests --ash-no-nudges --disable-features=OfferMigrationToDiceUsers,OptGuideOnDeviceModel
+2026-04-19 01:24:27.573 [info] [BrowserLauncherMain] No Chrome with CDP found on port 9222.
+2026-04-19 01:24:28.094 [info] [BrowserLauncherMain] Chrome with CDP is already running on port 9222.
+2026-04-19 01:24:28.094 [info] [BrowserLauncherMain] Successfully launched browser.
+2026-04-19 01:27:39.811 [info] [BrowserLauncherMain] Launching browser...
+2026-04-19 01:27:39.827 [info] [BrowserLauncherMain] No Chrome with CDP found on port 9222.
+2026-04-19 01:27:39.839 [info] [BrowserLauncherMain] Launching browser with command: "/usr/bin/google-chrome" --remote-debugging-port=9222 --user-data-dir=/home/kausthubh/.gemini/antigravity-browser-profile --disable-fre --no-default-browser-check --no-first-run --auto-accept-browser-signin-for-tests --ash-no-nudges --disable-features=OfferMigrationToDiceUsers,OptGuideOnDeviceModel
+2026-04-19 01:27:39.864 [info] [BrowserLauncherMain] No Chrome with CDP found on port 9222.
+2026-04-19 01:27:40.388 [info] [BrowserLauncherMain] Chrome with CDP is already running on port 9222.
+2026-04-19 01:27:40.388 [info] [BrowserLauncherMain] Successfully launched browser.
+2026-04-19 01:51:37.781 [info] update#setState checking for updates
+2026-04-19 01:51:38.416 [info] update#setState idle
+2026-04-19 02:37:07.734 [info] Extension host with pid 223104 exited with code: 0, signal: unknown.

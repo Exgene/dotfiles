@@ -4,7 +4,9 @@ return {
     require('fff.download').download_or_build_binary()
   end,
   lazy = false,
-  opts = {},
+  opts = {
+    prompt_vim_mode=true
+  },
   keys = {
     {
       '<leader>sf',

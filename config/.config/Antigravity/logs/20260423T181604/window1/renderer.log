@@ -1,0 +1,58 @@
+2026-04-23 18:16:08.052 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-23 18:16:08.072 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-23 18:16:08.072 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-23 18:16:08.073 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'fileComments' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-23 18:16:08.073 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-23 18:16:08.073 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-23 18:16:08.074 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-23 18:16:08.074 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-23 18:16:08.074 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-23 18:16:08.075 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-23 18:16:08.075 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'dbaeumer.vscode-eslint' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-23 18:16:08.075 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-23 18:16:08.075 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-23 18:16:08.075 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-23 18:16:08.076 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-23 18:16:08.262 [error] [createInstance] ooe depends on UNKNOWN service agentSessions.: Error: [createInstance] ooe depends on UNKNOWN service agentSessions.
+    at jrs.y (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5934:4186)
+    at jrs.o (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5934:1360)
+    at jrs.createInstance (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5934:1207)
+    at new Bei (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6603:8181)
+    at new G6n (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6603:15815)
+    at jrs.o (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5934:1710)
+    at jrs.createInstance (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5934:1207)
+    at new _ei (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6603:18528)
+    at jrs.o (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5934:1710)
+    at jrs.createInstance (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5934:1207)
+2026-04-23 18:16:09.062 [info] Started local extension host with pid 480993.
+2026-04-23 18:16:09.460 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-04-23 18:16:09.461 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-04-23 18:16:09.464 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravitySettings` which is not defined in the 'commands' section.
+2026-04-23 18:16:09.464 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravityExtensions` which is not defined in the 'commands' section.
+2026-04-23 18:16:09.465 [error] [google.antigravity]: Menu item references a command `antigravity.prioritized.chat.open` which is not defined in the 'commands' section.
+2026-04-23 18:16:11.766 [error] [Extension Host] Failed to get status: LR: Language server has not been started!
+	at get client (/usr/share/antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1989124)
+	at /usr/share/antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1992352
+	at fS (/usr/share/antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1992657)
+	at async /usr/share/antigravity/resources/app/extensions/antigravity/dist/extension.js:2:2128838
+	at async sp.h (file:///usr/share/antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:44675)
+2026-04-23 18:16:11.767 [error] [Extension Host] Failed to get status: LR: Language server has not been started!
+	at get client (/usr/share/antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1989124)
+	at /usr/share/antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1992352
+	at fS (/usr/share/antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1992657)
+	at async Hf.value (/usr/share/antigravity/resources/app/extensions/antigravity/dist/extension.js:2:2128913)
+2026-04-23 18:18:11.162 [warning] [backup tracker] suspended, ignoring unregister event file:///home/kausthubh/GitHub/polymarket-clone/.env.example 
+2026-04-23 18:18:11.163 [warning] [backup tracker] suspended, ignoring unregister event file:///home/kausthubh/GitHub/polymarket-clone/components/ui/skeleton.tsx 
+2026-04-23 18:18:11.163 [warning] [backup tracker] suspended, ignoring unregister event file:///home/kausthubh/GitHub/polymarket-clone/app/page.tsx 
+2026-04-23 18:18:11.163 [warning] [backup tracker] suspended, ignoring unregister event file:///home/kausthubh/GitHub/polymarket-clone/app/components/MarketMetadataPanel.tsx 
+2026-04-23 18:18:11.163 [warning] [backup tracker] suspended, ignoring unregister event file:///home/kausthubh/GitHub/polymarket-clone/app/components/OrderBookPanel.tsx 
+2026-04-23 18:18:11.164 [warning] [backup tracker] suspended, ignoring unregister event file:///home/kausthubh/GitHub/polymarket-clone/app/components/MarketWorkspace.tsx 
+2026-04-23 18:18:11.164 [warning] [backup tracker] suspended, ignoring unregister event file:///home/kausthubh/GitHub/polymarket-clone/app/components/Workspace.tsx 
+2026-04-23 18:18:11.164 [warning] [backup tracker] suspended, ignoring unregister event file:///home/kausthubh/GitHub/polymarket-clone/app/store/shortcutStore.ts 
+2026-04-23 18:18:11.164 [warning] [backup tracker] suspended, ignoring unregister event file:///home/kausthubh/GitHub/polymarket-clone/AGENTS.md 
+2026-04-23 18:18:11.164 [warning] [backup tracker] suspended, ignoring unregister event file:///home/kausthubh/GitHub/polymarket-clone/app/api/orders/route.ts 
+2026-04-23 18:18:11.165 [warning] [backup tracker] suspended, ignoring unregister event file:///home/kausthubh/GitHub/polymarket-clone/app/lib/polymarket-server.ts 
+2026-04-23 18:18:11.166 [warning] [backup tracker] suspended, ignoring unregister event file:///home/kausthubh/GitHub/polymarket-clone/app/api/markets/%5BmarketId%5D/route.ts 
+2026-04-23 18:18:11.166 [warning] [backup tracker] suspended, ignoring unregister event file:///home/kausthubh/GitHub/polymarket-clone/app/components/BrowseDashboard.tsx 
+2026-04-23 18:18:11.166 [warning] [backup tracker] suspended, ignoring unregister event file:///home/kausthubh/GitHub/polymarket-clone/app/hooks/useSeriesEvents.ts 
+2026-04-23 18:18:11.166 [warning] [backup tracker] suspended, ignoring unregister event file:///home/kausthubh/GitHub/polymarket-clone/.next/dev/package.json 

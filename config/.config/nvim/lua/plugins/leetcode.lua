@@ -7,6 +7,12 @@ return {
     'MunifTanjim/nui.nvim',
   },
   config = function()
-    require('leetcode').setup()
+    require('leetcode').setup {
+      lang = 'python3',
+      logging = true,
+      cache = {
+        update_interval = 60 * 60 * 24 * 7,
+      },
+    }
   end,
 }

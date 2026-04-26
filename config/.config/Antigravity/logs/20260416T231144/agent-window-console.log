@@ -1,0 +1,565 @@
+2026-04-16 23:13:55.568 [info] [Manager] [DEBUG bootstrap-window] cssModules: undefined (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/jetskiAgent.js:3)
+2026-04-16 23:13:55.568 [info] [Manager] [DEBUG bootstrap-window] esModule: jetskiAgent/main (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/jetskiAgent.js:3)
+2026-04-16 23:13:55.568 [info] [Manager] [DEBUG bootstrap-window] baseUrl: [object URL] (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/jetskiAgent.js:3)
+2026-04-16 23:13:55.568 [info] [Manager] [DEBUG bootstrap-window] new URL: vscode-file://vscode-app/usr/share/antigravity/resources/app/out/jetskiAgent/main.js (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/jetskiAgent.js:3)
+2026-04-16 23:13:56.465 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-16 23:14:02.708 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-16 23:19:08.909 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-16 23:39:13.389 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-16 23:39:44.507 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-16 23:39:50.740 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-16 23:39:53.239 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-16 23:39:53.789 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-17 00:00:31.721 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-17 00:01:37.274 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-17 00:01:37.359 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-17 00:29:08.211 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-17 00:29:08.211 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-17 00:29:08.213 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-17 00:29:09.211 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-17 00:46:29.217 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-17 00:46:44.001 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-17 01:44:34.615 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-17 01:44:34.641 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-17 01:44:34.642 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-17 01:44:35.615 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-17 01:53:09.443 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-17 01:53:09.443 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-17 01:53:09.444 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-17 01:53:10.442 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-17 19:36:03.379 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-17 19:36:03.379 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-17 19:36:03.380 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-17 19:36:04.380 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-17 19:36:05.202 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-17 19:36:05.202 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-17 19:36:05.203 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-17 19:36:06.202 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-17 19:36:06.473 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-17 19:36:06.474 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-17 19:36:06.474 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-17 19:36:07.474 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-17 23:29:56.589 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-17 23:29:56.590 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-17 23:29:56.590 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-17 23:29:57.589 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 02:23:09.472 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 02:23:09.480 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 02:23:09.481 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 02:23:10.473 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 11:21:03.635 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 11:21:03.636 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 11:21:03.636 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 11:21:04.636 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 11:21:05.148 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 11:21:05.148 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 11:21:05.148 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 11:21:06.148 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 11:21:06.583 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 11:21:06.583 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 11:21:06.584 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 11:21:07.584 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 11:21:07.673 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 11:21:07.674 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 11:21:07.674 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 11:21:08.674 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 11:21:09.244 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 11:21:09.244 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 11:21:09.244 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 11:21:10.244 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 12:53:09.569 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 12:53:09.569 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 12:53:09.569 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 12:53:10.569 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 13:16:56.579 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 13:16:56.579 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 13:16:56.579 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 13:16:57.579 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 13:16:58.123 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 13:16:58.123 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 13:16:58.124 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 13:16:59.124 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 13:17:00.037 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 13:17:00.037 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 13:17:00.038 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 13:17:01.037 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 13:17:01.964 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 13:17:01.964 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 13:17:01.965 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 13:17:02.965 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 13:47:05.274 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 13:47:05.274 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 13:47:05.275 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 13:47:06.275 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 18:34:03.819 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 18:34:03.819 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 18:34:03.820 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 18:34:04.820 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 18:34:05.065 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 18:34:05.065 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 18:34:05.065 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 18:34:06.065 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 18:34:06.307 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 18:34:06.307 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 18:34:06.307 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 18:34:07.307 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 18:34:08.200 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 18:34:08.201 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 18:34:08.201 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 18:34:09.201 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 19:23:09.541 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 19:23:09.541 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 19:23:09.541 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 19:23:10.541 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 19:39:44.693 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 19:39:44.693 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 19:39:44.694 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 19:39:45.693 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 19:39:45.894 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 19:39:45.894 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 19:39:45.894 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 19:39:46.894 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 19:39:47.745 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 19:39:47.745 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 19:39:47.746 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 19:39:48.746 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 20:10:08.056 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 20:10:08.056 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 20:10:08.057 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 20:10:09.057 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 20:10:25.461 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 20:10:25.462 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 20:10:25.462 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 20:10:26.462 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 20:10:27.095 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 20:10:27.095 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 20:10:27.096 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 20:10:28.096 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 20:10:29.139 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 20:10:29.140 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 20:10:29.140 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 20:10:30.140 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 20:10:30.743 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 20:10:30.744 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 20:10:30.744 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 20:10:31.744 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 21:23:09.486 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 21:23:09.487 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 21:23:09.489 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 21:23:10.675 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 22:55:37.361 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 22:55:37.362 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 22:55:37.362 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 22:55:38.362 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 22:55:39.383 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 22:55:39.383 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 22:55:39.384 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 22:55:40.384 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 22:55:40.791 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 22:55:40.791 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 22:55:40.792 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for bb5dc6a5-f7e1-4402-97b8-a7e9630779ad: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-18 22:55:41.792 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-18 23:44:45.860 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-18 23:44:46.077 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-18 23:44:46.409 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-18 23:44:46.859 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-18 23:45:48.146 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-18 23:45:51.150 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-18 23:54:52.409 [info] [Manager] Creating a TrustedTypePolicy named 'lexical' violates the following Content Security policy directive: "trusted-types amdLoader
+					cellRendererEditorText
+					defaultWorkerFactory
+					diffEditorWidget
+					diffReview
+					domLineBreaksComputer
+					dompurify
+					dompurifyMermaid
+					editorGhostText
+					editorViewLayer
+					mermaid
+					notebookRenderer
+					stickyScrollViewLayer
+					tokenizeToString
+					notebookChatEditController
+					renderCodeBlock
+					google#safe". The action has been blocked. (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:2776)
+2026-04-18 23:56:23.821 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-18 23:56:24.872 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 00:02:22.253 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 00:17:32.540 [info] [Manager] Uncaught (in promise) Error: No TM Grammar registered for this language. (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:4557)
+2026-04-19 00:17:35.159 [info] [Manager] Uncaught (in promise) Error: No TM Grammar registered for this language. (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:4557)
+2026-04-19 00:23:37.688 [info] [Manager] Uncaught (in promise) Error: No TM Grammar registered for this language. (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:4557)
+2026-04-19 00:23:38.444 [info] [Manager] Uncaught (in promise) Error: No TM Grammar registered for this language. (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:4557)
+2026-04-19 00:23:55.804 [info] [Manager] Failed to copy text using Clipboard API:  [object DOMException] (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3815)
+2026-04-19 00:27:39.809 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 00:27:44.197 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 00:27:55.414 [info] [Manager] Failed to copy text using Clipboard API:  [object DOMException] (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3815)
+2026-04-19 00:30:40.943 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 00:35:40.098 [info] [Manager] Uncaught (in promise) Error: No TM Grammar registered for this language. (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:4557)
+2026-04-19 00:35:41.274 [info] [Manager] Uncaught (in promise) Error: No TM Grammar registered for this language. (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:4557)
+2026-04-19 00:35:41.275 [info] [Manager] Uncaught (in promise) Error: No TM Grammar registered for this language. (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:4557)
+2026-04-19 00:38:10.923 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 00:48:40.167 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 00:59:40.560 [info] [Manager] Creating a TrustedTypePolicy named 'lexical' violates the following Content Security policy directive: "trusted-types amdLoader
+					cellRendererEditorText
+					defaultWorkerFactory
+					diffEditorWidget
+					diffReview
+					domLineBreaksComputer
+					dompurify
+					dompurifyMermaid
+					editorGhostText
+					editorViewLayer
+					mermaid
+					notebookRenderer
+					stickyScrollViewLayer
+					tokenizeToString
+					notebookChatEditController
+					renderCodeBlock
+					google#safe". The action has been blocked. (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:2776)
+2026-04-19 01:06:46.835 [info] [Manager] Creating a TrustedTypePolicy named 'lexical' violates the following Content Security policy directive: "trusted-types amdLoader
+					cellRendererEditorText
+					defaultWorkerFactory
+					diffEditorWidget
+					diffReview
+					domLineBreaksComputer
+					dompurify
+					dompurifyMermaid
+					editorGhostText
+					editorViewLayer
+					mermaid
+					notebookRenderer
+					stickyScrollViewLayer
+					tokenizeToString
+					notebookChatEditController
+					renderCodeBlock
+					google#safe". The action has been blocked. (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:2776)
+2026-04-19 01:06:47.522 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:06:47.740 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:06:57.205 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:06:57.241 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:07:00.972 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:07:01.305 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:07:01.807 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:12:57.075 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:12:57.377 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:13:14.809 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:23:34.314 [info] [Manager] Creating a TrustedTypePolicy named 'lexical' violates the following Content Security policy directive: "trusted-types amdLoader
+					cellRendererEditorText
+					defaultWorkerFactory
+					diffEditorWidget
+					diffReview
+					domLineBreaksComputer
+					dompurify
+					dompurifyMermaid
+					editorGhostText
+					editorViewLayer
+					mermaid
+					notebookRenderer
+					stickyScrollViewLayer
+					tokenizeToString
+					notebookChatEditController
+					renderCodeBlock
+					google#safe". The action has been blocked. (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:2776)
+2026-04-19 01:24:41.935 [info] [Manager] Loading the image 'http://localhost:3000/favicon.ico?favicon.0x3dzn~oxb6tn.ico' violates the following Content Security Policy directive: "img-src 'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https:". The action has been blocked. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:25:02.532 [info] [Manager] Loading the image 'http://localhost:3000/favicon.ico?favicon.0x3dzn~oxb6tn.ico' violates the following Content Security Policy directive: "img-src 'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https:". The action has been blocked. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:25:12.307 [info] [Manager] Loading the image 'http://localhost:3000/favicon.ico?favicon.0x3dzn~oxb6tn.ico' violates the following Content Security Policy directive: "img-src 'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https:". The action has been blocked. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:25:24.776 [info] [Manager] Loading the image 'http://localhost:3000/favicon.ico?favicon.0x3dzn~oxb6tn.ico' violates the following Content Security Policy directive: "img-src 'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https:". The action has been blocked. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:25:30.456 [info] [Manager] Loading the image 'http://localhost:3000/favicon.ico?favicon.0x3dzn~oxb6tn.ico' violates the following Content Security Policy directive: "img-src 'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https:". The action has been blocked. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:25:36.411 [info] [Manager] Loading the image 'http://localhost:3000/favicon.ico?favicon.0x3dzn~oxb6tn.ico' violates the following Content Security Policy directive: "img-src 'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https:". The action has been blocked. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:25:57.626 [info] [Manager] Loading the image 'http://localhost:3000/favicon.ico?favicon.0x3dzn~oxb6tn.ico' violates the following Content Security Policy directive: "img-src 'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https:". The action has been blocked. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:26:02.514 [info] [Manager] Creating a TrustedTypePolicy named 'lexical' violates the following Content Security policy directive: "trusted-types amdLoader
+					cellRendererEditorText
+					defaultWorkerFactory
+					diffEditorWidget
+					diffReview
+					domLineBreaksComputer
+					dompurify
+					dompurifyMermaid
+					editorGhostText
+					editorViewLayer
+					mermaid
+					notebookRenderer
+					stickyScrollViewLayer
+					tokenizeToString
+					notebookChatEditController
+					renderCodeBlock
+					google#safe". The action has been blocked. (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:2776)
+2026-04-19 01:27:57.234 [info] [Manager] Loading the image 'http://localhost:3000/favicon.ico?favicon.0x3dzn~oxb6tn.ico' violates the following Content Security Policy directive: "img-src 'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https:". The action has been blocked. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:28:02.831 [info] [Manager] Loading the image 'http://localhost:3000/favicon.ico?favicon.0x3dzn~oxb6tn.ico' violates the following Content Security Policy directive: "img-src 'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https:". The action has been blocked. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:28:10.303 [info] [Manager] Loading the image 'http://localhost:3000/favicon.ico?favicon.0x3dzn~oxb6tn.ico' violates the following Content Security Policy directive: "img-src 'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https:". The action has been blocked. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:28:25.603 [info] [Manager] Loading the image 'http://localhost:3000/favicon.ico?favicon.0x3dzn~oxb6tn.ico' violates the following Content Security Policy directive: "img-src 'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https:". The action has been blocked. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:28:35.157 [info] [Manager] Loading the image 'http://localhost:3000/favicon.ico?favicon.0x3dzn~oxb6tn.ico' violates the following Content Security Policy directive: "img-src 'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https:". The action has been blocked. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:28:42.912 [info] [Manager] Loading the image 'http://localhost:3000/favicon.ico?favicon.0x3dzn~oxb6tn.ico' violates the following Content Security Policy directive: "img-src 'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https:". The action has been blocked. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:28:50.720 [info] [Manager] Loading the image 'http://localhost:3000/favicon.ico?favicon.0x3dzn~oxb6tn.ico' violates the following Content Security Policy directive: "img-src 'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https:". The action has been blocked. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:28:59.369 [info] [Manager] Loading the image 'http://localhost:3000/favicon.ico?favicon.0x3dzn~oxb6tn.ico' violates the following Content Security Policy directive: "img-src 'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https:". The action has been blocked. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:29:08.334 [info] [Manager] Loading the image 'http://localhost:3000/favicon.ico?favicon.0x3dzn~oxb6tn.ico' violates the following Content Security Policy directive: "img-src 'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https:". The action has been blocked. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:29:15.585 [info] [Manager] Loading the image 'http://localhost:3000/favicon.ico?favicon.0x3dzn~oxb6tn.ico' violates the following Content Security Policy directive: "img-src 'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https:". The action has been blocked. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:29:20.523 [info] [Manager] Loading the image 'http://localhost:3000/favicon.ico?favicon.0x3dzn~oxb6tn.ico' violates the following Content Security Policy directive: "img-src 'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https:". The action has been blocked. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:33:41.307 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:33:45.808 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:34:43.581 [info] [Manager] Loading the image 'http://localhost:3000/favicon.ico?favicon.0x3dzn~oxb6tn.ico' violates the following Content Security Policy directive: "img-src 'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https:". The action has been blocked. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:35:34.240 [info] [Manager] Loading the image 'http://localhost:3000/favicon.ico?favicon.0x3dzn~oxb6tn.ico' violates the following Content Security Policy directive: "img-src 'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https:". The action has been blocked. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:36:16.859 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:36:57.476 [info] [Manager] Loading the image 'http://localhost:3000/favicon.ico?favicon.0x3dzn~oxb6tn.ico' violates the following Content Security Policy directive: "img-src 'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https:". The action has been blocked. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:37:23.597 [info] [Manager] Loading the image 'http://localhost:3000/favicon.ico?favicon.0x3dzn~oxb6tn.ico' violates the following Content Security Policy directive: "img-src 'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https:". The action has been blocked. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:37:56.538 [info] [Manager] Loading the image 'http://localhost:3000/favicon.ico?favicon.0x3dzn~oxb6tn.ico' violates the following Content Security Policy directive: "img-src 'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https:". The action has been blocked. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:38:10.888 [info] [Manager] Loading the image 'http://localhost:3000/favicon.ico?favicon.0x3dzn~oxb6tn.ico' violates the following Content Security Policy directive: "img-src 'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https:". The action has been blocked. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:38:16.709 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:38:25.364 [info] [Manager] Loading the image 'http://localhost:3000/favicon.ico?favicon.0x3dzn~oxb6tn.ico' violates the following Content Security Policy directive: "img-src 'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https:". The action has been blocked. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:38:41.788 [info] [Manager] Loading the image 'http://localhost:3000/favicon.ico?favicon.0x3dzn~oxb6tn.ico' violates the following Content Security Policy directive: "img-src 'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https:". The action has been blocked. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:39:05.340 [info] [Manager] Loading the image 'http://localhost:3000/favicon.ico?favicon.0x3dzn~oxb6tn.ico' violates the following Content Security Policy directive: "img-src 'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https:". The action has been blocked. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:44:36.151 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:44:37.336 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 01:46:48.688 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:03:38.552 [info] [Manager] Creating a TrustedTypePolicy named 'lexical' violates the following Content Security policy directive: "trusted-types amdLoader
+					cellRendererEditorText
+					defaultWorkerFactory
+					diffEditorWidget
+					diffReview
+					domLineBreaksComputer
+					dompurify
+					dompurifyMermaid
+					editorGhostText
+					editorViewLayer
+					mermaid
+					notebookRenderer
+					stickyScrollViewLayer
+					tokenizeToString
+					notebookChatEditController
+					renderCodeBlock
+					google#safe". The action has been blocked. (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:2776)
+2026-04-19 02:06:33.451 [info] [Manager] Creating a TrustedTypePolicy named 'lexical' violates the following Content Security policy directive: "trusted-types amdLoader
+					cellRendererEditorText
+					defaultWorkerFactory
+					diffEditorWidget
+					diffReview
+					domLineBreaksComputer
+					dompurify
+					dompurifyMermaid
+					editorGhostText
+					editorViewLayer
+					mermaid
+					notebookRenderer
+					stickyScrollViewLayer
+					tokenizeToString
+					notebookChatEditController
+					renderCodeBlock
+					google#safe". The action has been blocked. (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:2776)
+2026-04-19 02:07:15.243 [info] [Manager] Creating a TrustedTypePolicy named 'lexical' violates the following Content Security policy directive: "trusted-types amdLoader
+					cellRendererEditorText
+					defaultWorkerFactory
+					diffEditorWidget
+					diffReview
+					domLineBreaksComputer
+					dompurify
+					dompurifyMermaid
+					editorGhostText
+					editorViewLayer
+					mermaid
+					notebookRenderer
+					stickyScrollViewLayer
+					tokenizeToString
+					notebookChatEditController
+					renderCodeBlock
+					google#safe". The action has been blocked. (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:2776)
+2026-04-19 02:08:45.921 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:09:54.722 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:09:55.354 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:10:07.387 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:10:14.603 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:10:14.638 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:10:18.085 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:10:18.138 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:10:19.052 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:10:21.904 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:10:26.320 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:10:27.137 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:10:35.438 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:10:35.921 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:10:39.352 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:10:40.403 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:10:40.802 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:10:42.023 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:10:43.819 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:11:48.870 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:12:06.353 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:12:06.703 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:13:49.594 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-19 02:13:49.594 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-19 02:13:49.595 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for b8ecad7a-1d17-4554-890d-5b10c0e01bbe: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-19 02:13:50.593 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-19 02:13:51.657 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-19 02:13:51.657 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-19 02:13:51.659 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for b8ecad7a-1d17-4554-890d-5b10c0e01bbe: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-19 02:13:52.657 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-19 02:13:52.910 [info] [Manager] [FileWatch:undefined] stream error: ConnectError: [unknown] Failed to fetch (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-19 02:13:52.910 [info] [Manager] [FileWatch:undefined] disconnected, retrying in 1000ms... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-19 02:13:52.910 [info] [Manager] [consumeAgentStateStream] streamAgentStateUpdates error for b8ecad7a-1d17-4554-890d-5b10c0e01bbe: ConnectError: [unknown] network error (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3660)
+2026-04-19 02:13:53.910 [info] [Manager] [FileWatch:undefined] connecting... (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3662)
+2026-04-19 02:17:37.012 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:24:06.664 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:24:14.427 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:24:18.077 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:24:20.711 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:24:21.660 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:24:26.145 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:24:26.444 [info] [Manager] Creating a TrustedTypePolicy named 'lexical' violates the following Content Security policy directive: "trusted-types amdLoader
+					cellRendererEditorText
+					defaultWorkerFactory
+					diffEditorWidget
+					diffReview
+					domLineBreaksComputer
+					dompurify
+					dompurifyMermaid
+					editorGhostText
+					editorViewLayer
+					mermaid
+					notebookRenderer
+					stickyScrollViewLayer
+					tokenizeToString
+					notebookChatEditController
+					renderCodeBlock
+					google#safe". The action has been blocked. (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:2776)
+2026-04-19 02:24:58.610 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:25:57.296 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:25:57.762 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:32:00.701 [info] [Manager] Failed to copy text using Clipboard API:  [object DOMException] (/usr/share/antigravity/resources/app/out/jetskiAgent/main.js:3815)
+2026-04-19 02:36:05.733 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:36:30.048 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:36:30.118 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
+2026-04-19 02:36:34.049 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (/usr/share/antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html:0)
