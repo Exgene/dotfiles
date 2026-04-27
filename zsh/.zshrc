@@ -44,6 +44,11 @@ bindkey "^[[B" history-beginning-search-forward-end
 # alias ll='eza -al --icons'
 # alias lt='eza -a --tree --level=2 --icons'
 alias t='sh ~/scripts/fzf_open.sh'
+# Use subtle colors for special dirs (foreground colors only)
+LS_COLORS="${LS_COLORS//ow=34;42/ow=01;36}"  # bold cyan
+LS_COLORS="${LS_COLORS//tw=30;42/tw=01;36}" # bold cyan
+LS_COLORS="${LS_COLORS//st=37;44/st=01;33}" # bold yellow
+export LS_COLORS
 
 eval "$(zoxide init zsh)"
 alias cd='z'
