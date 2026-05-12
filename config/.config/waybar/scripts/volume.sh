@@ -144,6 +144,7 @@ main() {
 			DEV_VOLUME="source-volume"
 			DEV_ICON="mic-volume"
 			DEV_NAME="Microphone"
+			MAX=100
 			;;
 		output)
 			DEV_DEF="@DEFAULT_SINK@"
@@ -151,6 +152,7 @@ main() {
 			DEV_VOLUME="sink-volume"
 			DEV_ICON="audio-volume"
 			DEV_NAME="Volume"
+			MAX=150
 			;;
 		*)
 			usage

@@ -1,22 +1,23 @@
 <monitors version="2">
+  <!-- Configuration 1: HDMI-A-1 (Current NOC Monitor) as primary, eDP-1 secondary -->
   <configuration>
     <layoutmode>logical</layoutmode>
     <logicalmonitor>
-      <x>2560</x>
+      <x>1920</x>
       <y>0</y>
       <scale>1</scale>
       <primary>yes</primary>
       <monitor>
         <monitorspec>
-          <connector>HDMI-1</connector>
-          <vendor>GSM</vendor>
-          <product>LG ULTRAGEAR</product>
-          <serial>310NTPC6Y936</serial>
+          <connector>HDMI-A-1</connector>
+          <vendor>NOC</vendor>
+          <product>Monitor1</product>
+          <serial>123456789</serial>
         </monitorspec>
         <mode>
           <width>1920</width>
           <height>1080</height>
-          <rate>119.982</rate>
+          <rate>60.000</rate>
         </mode>
       </monitor>
     </logicalmonitor>
@@ -34,29 +35,31 @@
         <mode>
           <width>2560</width>
           <height>1440</height>
-          <rate>165.003</rate>
+          <rate>60.000</rate>
         </mode>
       </monitor>
     </logicalmonitor>
   </configuration>
+
+  <!-- Configuration 2: HDMI-A-1 (Current NOC Monitor) as primary, eDP-1 secondary (physical mode) -->
   <configuration>
     <layoutmode>physical</layoutmode>
     <logicalmonitor>
-      <x>2560</x>
+      <x>1920</x>
       <y>0</y>
       <scale>1</scale>
       <primary>yes</primary>
       <monitor>
         <monitorspec>
-          <connector>HDMI-1</connector>
-          <vendor>GSM</vendor>
-          <product>LG ULTRAGEAR</product>
-          <serial>310NTPC6Y936</serial>
+          <connector>HDMI-A-1</connector>
+          <vendor>NOC</vendor>
+          <product>Monitor1</product>
+          <serial>123456789</serial>
         </monitorspec>
         <mode>
           <width>1920</width>
           <height>1080</height>
-          <rate>119.982</rate>
+          <rate>60.000</rate>
         </mode>
       </monitor>
     </logicalmonitor>
@@ -79,6 +82,92 @@
       </monitor>
     </logicalmonitor>
   </configuration>
+
+  <!-- Configuration 3: HDMI-A-2 (Second/Dummy Monitor) as primary, eDP-1 secondary -->
+  <configuration>
+    <layoutmode>logical</layoutmode>
+    <logicalmonitor>
+      <x>1920</x>
+      <y>0</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>HDMI-A-1</connector>
+          <vendor>NOC</vendor>
+          <product>Monitor2</product>
+          <serial>987654321</serial>
+        </monitorspec>
+        <mode>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60.000</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <scale>1</scale>
+      <monitor>
+        <monitorspec>
+          <connector>eDP-1</connector>
+          <vendor>BOE</vendor>
+          <product>0x0a2d</product>
+          <serial>0x00000000</serial>
+        </monitorspec>
+        <mode>
+          <width>2560</width>
+          <height>1440</height>
+          <rate>60.000</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+  </configuration>
+
+  <!-- Configuration 4: HDMI-A-2 (Second/Dummy Monitor) as primary, eDP-1 secondary (physical mode) -->
+  <configuration>
+    <layoutmode>physical</layoutmode>
+    <logicalmonitor>
+      <x>1920</x>
+      <y>0</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>HDMI-A-1</connector>
+          <vendor>NOC</vendor>
+          <product>Monitor2</product>
+          <serial>987654321</serial>
+        </monitorspec>
+        <mode>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60.000</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <scale>1</scale>
+      <monitor>
+        <monitorspec>
+          <connector>eDP-1</connector>
+          <vendor>BOE</vendor>
+          <product>0x0a2d</product>
+          <serial>0x00000000</serial>
+        </monitorspec>
+        <mode>
+          <width>2560</width>
+          <height>1440</height>
+          <rate>165.003</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+  </configuration>
+
+  <!-- Configuration 5: Only eDP-1 (laptop internal display when no HDMI connected) -->
   <configuration>
     <layoutmode>logical</layoutmode>
     <logicalmonitor>
@@ -101,6 +190,8 @@
       </monitor>
     </logicalmonitor>
   </configuration>
+
+  <!-- Configuration 6: Only eDP-1 (physical mode) -->
   <configuration>
     <layoutmode>physical</layoutmode>
     <logicalmonitor>

@@ -46,8 +46,8 @@
 		"on-scroll-down": "~/.config/waybar/scripts/volume.sh output lower",
 		// "smooth-scrolling-threshold":
 		// "tooltip":
-		"tooltip-format": "<b>Output Device</b>: {desc}"
-		// "max-volume":
+		"tooltip-format": "<b>Output Device</b>: {desc}",
+		"max-volume": 150
 		// "ignored-sinks":
 		// "reverse-scrolling":
 		// "reverse-mouse-scrolling":
@@ -83,7 +83,7 @@
 		"on-scroll-down": "~/.config/waybar/scripts/volume.sh input lower",
 		// "smooth-scrolling-threshold":
 		// "tooltip":
-		"tooltip-format": "<b>Input Device</b>: {desc}"
+		"tooltip-format": "<b>Input Device</b>: {desc}",
 		// "max-volume":
 		// "ignored-sinks":
 		// "reverse-scrolling":

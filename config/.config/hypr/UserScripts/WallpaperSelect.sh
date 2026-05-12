@@ -7,7 +7,7 @@ wallDIR="$HOME/Pictures/wallpapers"
 SCRIPTSDIR="$HOME/.config/hypr/scripts"
 
 # variables
-focused_monitor=$(hyprctl monitors | awk '/^Monitor/{name=$2} /focused: yes/{print name}')
+focused_monitor=$(hyprctl -j monitors 2>/dev/null | jq -r '.[] | select(.focused == true) | .name' | head -n1)
 # swww transition config
 FPS=60
 TYPE="any"
@@ -22,6 +22,11 @@ fi
 
 # Retrieve image files using null delimiter to handle spaces in filenames
 mapfile -d '' PICS < <(find "${wallDIR}" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.gif" \) -print0)
+
+if [[ ${#PICS[@]} -eq 0 ]]; then
+  notify-send -a "HyDE Alert" "No wallpapers found in $wallDIR"
+  exit 1
+fi
 
 RANDOM_PIC="${PICS[$((RANDOM % ${#PICS[@]}))]}"
 RANDOM_PIC_NAME=". random"
@@ -68,7 +73,11 @@ main() {
 
   # Random choice case
   if [[ "$choice" == "$RANDOM_PIC_NAME" ]]; then
-	swww img -o "$focused_monitor" "$RANDOM_PIC" $SWWW_PARAMS;
+    if [[ -n "$focused_monitor" ]]; then
+      swww img -o "$focused_monitor" "$RANDOM_PIC" $SWWW_PARAMS
+    else
+      swww img "$RANDOM_PIC" $SWWW_PARAMS
+    fi
     sleep 0.5
     "$SCRIPTSDIR/WallustSwww.sh"
     sleep 0.2
@@ -87,7 +96,11 @@ main() {
   done
 
   if [[ $pic_index -ne -1 ]]; then
-    swww img -o "$focused_monitor" "${PICS[$pic_index]}" $SWWW_PARAMS
+    if [[ -n "$focused_monitor" ]]; then
+      swww img -o "$focused_monitor" "${PICS[$pic_index]}" $SWWW_PARAMS
+    else
+      swww img "${PICS[$pic_index]}" $SWWW_PARAMS
+    fi
   else
     echo "Image not found."
     exit 1
@@ -107,4 +120,3 @@ sleep 0.5
 
 sleep 0.2
 "$SCRIPTSDIR/Refresh.sh"
-
