@@ -30,7 +30,7 @@ require('lazy').setup({
   require 'plugins.conform', --done
   require 'plugins.whichkey', --done
   require 'plugins.mini', -- done
-  require 'plugins.treesitter', --done
+  -- require 'plugins.treesitter', --done
   require 'plugins.colorscheme', -- done
   require 'plugins.harpoon', -- done
   require 'plugins.indent_line',
@@ -40,6 +40,7 @@ require('lazy').setup({
   require 'plugins.gitsigns', -- done
   require 'plugins.md',
   require 'plugins.leetcode',
+  require 'plugins.treesitter',
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
