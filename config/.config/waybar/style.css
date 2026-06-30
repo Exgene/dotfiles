@@ -22,7 +22,6 @@
 #waybar > box {
 	margin: 5px;
 	background-color: @main-bg;
-	border: 1px solid @main-br;
 	border-radius: 14px;
 }
 

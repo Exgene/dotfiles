@@ -22,38 +22,39 @@ printf() {
 
 power_on() {
 	local state
-	state=$(bluetoothctl show | awk '/PowerState/ {print $2}')
+	state=$(bluetoothctl show | awk '/Powered:/ {print $2}')
 
 	case $state in
-		off)
-			bluetoothctl power on > /dev/null
-			;;
-		off-blocked)
-			rfkill unblock bluetooth
-
-			local new_state
-
-			local i=1
-			for ((; i <= TIMEOUT; i++)); do
-				printf "\rUnblocking Bluetooth... (%d/%d)" $i $TIMEOUT
-
-				new_state=$(bluetoothctl show | awk '/PowerState/ {print $2}')
-				if [[ $new_state == on ]]; then
-					break
-				fi
-
-				sleep 1
-			done
-
-			if [[ $new_state != on ]]; then
-				notify-send "Bluetooth" "Failed to unblock" -i "package-purge"
-				exit 1
-			fi
-			;;
-		*)
+		yes)
 			return 0
 			;;
+			no)
+			rfkill unblock bluetooth
+			bluetoothctl power on > /dev/null
+			;;
+			*)
+			bluetoothctl power on > /dev/null
+			;;
 	esac
+
+	local new_state
+
+	local i=1
+	for ((; i <= TIMEOUT; i++)); do
+		printf "\rEnabling Bluetooth... (%d/%d)" $i $TIMEOUT
+
+		new_state=$(bluetoothctl show | awk '/Powered:/ {print $2}')
+		if [[ $new_state == yes ]]; then
+			break
+		fi
+
+		sleep 1
+	done
+
+	if [[ $new_state != yes ]]; then
+		notify-send "Bluetooth" "Failed to enable" -i "package-purge"
+		exit 1
+	fi
 
 	notify-send "Bluetooth On" -i "network-bluetooth-activated" \
 		-h string:x-canonical-private-synchronous:bluetooth

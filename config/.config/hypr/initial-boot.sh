@@ -23,6 +23,8 @@ if [ ! -f ~/.config/hypr/.initial_startup_done ]; then
     gsettings set org.gnome.desktop.interface icon-theme $icon_theme > /dev/null 2>&1 &
     gsettings set org.gnome.desktop.interface cursor-theme $cursor_theme > /dev/null 2>&1 &
     gsettings set org.gnome.desktop.interface cursor-size 24 > /dev/null 2>&1 &
+    sed -i 's/^gtk-application-prefer-dark-theme=.*/gtk-application-prefer-dark-theme=1/' "$HOME/.config/gtk-3.0/settings.ini"
+    sed -i 's/^gtk-application-prefer-dark-theme=.*/gtk-application-prefer-dark-theme=1/' "$HOME/.config/gtk-4.0/settings.ini"
     
     # initiate kvantum theme
     kvantummanager --set "$kvantum_theme" > /dev/null 2>&1 &

@@ -30,16 +30,16 @@ menu() {
   IFS=$'\n' sorted_options=($(sort <<<"${PICS[*]}"))
   
   # Place ". random" at the beginning with the random picture as an icon
-  printf "%s\x00icon\x1f%s\n" "$RANDOM_PIC_NAME" "$RANDOM_PIC"
+  printf "%s\t%s\x00icon\x1f%s\n" "$RANDOM_PIC_NAME" "$RANDOM_PIC" "$RANDOM_PIC"
   
   for pic_path in "${sorted_options[@]}"; do
     pic_name=$(basename "$pic_path")
     
     # Displaying .gif to indicate animated images
     if [[ ! "$pic_name" =~ \.gif$ ]]; then
-      printf "%s\x00icon\x1f%s\n" "$(echo "$pic_name" | cut -d. -f1)" "$pic_path"
+      printf "%s\t%s\x00icon\x1f%s\n" "$(echo "$pic_name" | cut -d. -f1)" "$pic_path" "$pic_path"
     else
-      printf "%s\n" "$pic_name"
+      printf "%s\t%s\n" "$pic_name" "$pic_path"
     fi
   done
 }
@@ -56,10 +56,8 @@ set_wallpaper() {
 # Choice of wallpapers
 main() {
   choice=$(menu | $rofi_command)
-  
-  # Trim any potential whitespace or hidden characters
-  choice=$(echo "$choice" | xargs)
-  RANDOM_PIC_NAME=$(echo "$RANDOM_PIC_NAME" | xargs)
+
+  choice_label=${choice%%$'\t'*}
 
   # No choice case
   if [[ -z "$choice" ]]; then
@@ -68,23 +66,15 @@ main() {
   fi
 
   # Random choice case
-  if [[ "$choice" == "$RANDOM_PIC_NAME" ]]; then
+  if [[ "$choice_label" == "$RANDOM_PIC_NAME" ]]; then
     set_wallpaper "$RANDOM_PIC"
     exit 0
   fi
 
-  # Find the index of the selected file
-  pic_index=-1
-  for i in "${!PICS[@]}"; do
-    filename=$(basename "${PICS[$i]}")
-    if [[ "$filename" == "$choice"* ]]; then
-      pic_index=$i
-      break
-    fi
-  done
+  selected_pic=${choice#*$'\t'}
 
-  if [[ $pic_index -ne -1 ]]; then
-    set_wallpaper "${PICS[$pic_index]}"
+  if [[ -n "$selected_pic" && -f "$selected_pic" ]]; then
+    set_wallpaper "$selected_pic"
   else
     echo "Image not found."
     exit 1

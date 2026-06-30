@@ -160,13 +160,18 @@ set_custom_gtk_theme() {
     if [ "$mode" == "Light" ]; then
         search_keywords="*Light*"
         gsettings set $color_setting 'prefer-light'
+        gtk_prefer_dark=0
     elif [ "$mode" == "Dark" ]; then
         search_keywords="*Dark*"
         gsettings set $color_setting 'prefer-dark'
+        gtk_prefer_dark=1
     else
         echo "Invalid mode provided."
         return 1
     fi
+
+    sed -i "s/^gtk-application-prefer-dark-theme=.*/gtk-application-prefer-dark-theme=$gtk_prefer_dark/" "$HOME/.config/gtk-3.0/settings.ini"
+    sed -i "s/^gtk-application-prefer-dark-theme=.*/gtk-application-prefer-dark-theme=$gtk_prefer_dark/" "$HOME/.config/gtk-4.0/settings.ini"
 
     themes=()
     icons=()
@@ -239,4 +244,3 @@ sleep 0.3
 notify-send -u normal -i "$notif" "Themes in $next_mode Mode"
 
 exit 0
-

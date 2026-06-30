@@ -19,7 +19,7 @@
 		"max-length": 2,
 		// "align":
 		// "justify":
-		"on-click": "bash -lc 'if command -v nm-connection-editor >/dev/null 2>&1; then nm-connection-editor; elif command -v iwgtk >/dev/null 2>&1; then iwgtk; else notify-send \"Wi-Fi\" \"No GUI Wi-Fi app found\" -i network-wireless; fi'",
+		"on-click": "nm-connection-editor",
 		// "on-click-middle":
 		"on-click-right": "nmcli radio wifi off && notify-send 'Wi-Fi Disabled' -i 'network-wireless-off' -h string:x-canonical-private-synchronous:network",
 		// "on-update":
