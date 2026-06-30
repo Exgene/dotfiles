@@ -1,0 +1,17 @@
+[Unit]
+Description=Resume Parser Next.js Application
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/kausthubh/GitHub/resume-parser
+ExecStart=/home/kausthubh/.local/share/pnpm/pnpm start
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=resume-parser
+Environment=NODE_ENV=production
+Environment=PORT=3000
+
+[Install]
+WantedBy=default.target

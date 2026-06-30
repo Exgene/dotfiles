@@ -1,6 +1,7 @@
 term = xterm-256color
 
-theme = Gruvbox Dark
+# theme = Gruvbox Dark
+theme = monoglow
 
 font-family = Ioskeley Mono
 font-style = Bold

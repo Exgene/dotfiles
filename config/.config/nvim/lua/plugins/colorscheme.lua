@@ -37,17 +37,25 @@ return {
   --     }
   --   end,
   -- },
+  -- {
+  --   'ellisonleao/gruvbox.nvim',
+  --   priority = 1000,
+  --   init = function()
+  --     require('gruvbox').setup {
+  --     --   overrides = {
+  --     --     ['@lsp.type.method'] = { bg = '#ff9900' },
+  --     --     ['@comment.lua'] = { bg = '#000000' },
+  --     --   },
+  --     }
+  --     vim.cmd 'colorscheme gruvbox'
+  --   end,
+  -- },
   {
-    'ellisonleao/gruvbox.nvim',
+    'wnkz/monoglow.nvim',
     priority = 1000,
-    init = function()
-      require('gruvbox').setup {
-      --   overrides = {
-      --     ['@lsp.type.method'] = { bg = '#ff9900' },
-      --     ['@comment.lua'] = { bg = '#000000' },
-      --   },
-      }
-      vim.cmd 'colorscheme gruvbox'
+    config = function()
+      require('monoglow').setup {}
+      vim.cmd.colorscheme 'monoglow'
     end,
   },
 }

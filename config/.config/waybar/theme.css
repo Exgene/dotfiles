@@ -1,5 +1,4 @@
-/* nord */
-
+/* nord
 @define-color nord0         #2e3440;
 @define-color nord1         #3b4252;
 @define-color nord2         #434c5e;
@@ -16,6 +15,25 @@
 @define-color nord13        #ebcb8b;
 @define-color nord14        #a3be8c;
 @define-color nord15        #b48ead;
+*/
+
+/* monoglow */
+@define-color nord0         #121212;
+@define-color nord1         #191919;
+@define-color nord2         #2a2a2a;
+@define-color nord3         #444444;
+@define-color nord4         #7a7a7a;
+@define-color nord5         #cccccc;
+@define-color nord6         #f1f1f1;
+@define-color nord7         #8cf8f7;
+@define-color nord8         #1bfd9c;
+@define-color nord9         #66b2b2;
+@define-color nord10        #a6dbff;
+@define-color nord11        #ffc0b9;
+@define-color nord12        #deeeed;
+@define-color nord13        #fce094;
+@define-color nord14        #b3f6c0;
+@define-color nord15        #1bfd9c;
 
 /*
 	br - border

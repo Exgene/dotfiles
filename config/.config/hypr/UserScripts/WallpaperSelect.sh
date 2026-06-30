@@ -8,17 +8,7 @@ SCRIPTSDIR="$HOME/.config/hypr/scripts"
 
 # variables
 focused_monitor=$(hyprctl -j monitors 2>/dev/null | jq -r '.[] | select(.focused == true) | .name' | head -n1)
-# swww transition config
-FPS=60
-TYPE="any"
-DURATION=2
-BEZIER=".43,1.19,1,.4"
-SWWW_PARAMS="--transition-fps $FPS --transition-type $TYPE --transition-duration $DURATION"
-
-# Check if swaybg is running
-if pidof swaybg > /dev/null; then
-  pkill swaybg
-fi
+wallpaper_effects="$HOME/.config/hypr/wallpaper_effects"
 
 # Retrieve image files using null delimiter to handle spaces in filenames
 mapfile -d '' PICS < <(find "${wallDIR}" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.gif" \) -print0)
@@ -54,8 +44,14 @@ menu() {
   done
 }
 
-# initiate swww if not running
-swww query || swww-daemon --format xrgb
+set_wallpaper() {
+  local pic="$1"
+  cp "$pic" "$wallpaper_effects/.wallpaper_current"
+  cp "$pic" "$wallpaper_effects/.wallpaper_modified"
+  hyprctl hyprpaper wallpaper "$focused_monitor,$pic"
+  wallust run "$pic" -s &
+  "$SCRIPTSDIR/Refresh.sh"
+}
 
 # Choice of wallpapers
 main() {
@@ -73,15 +69,7 @@ main() {
 
   # Random choice case
   if [[ "$choice" == "$RANDOM_PIC_NAME" ]]; then
-    if [[ -n "$focused_monitor" ]]; then
-      swww img -o "$focused_monitor" "$RANDOM_PIC" $SWWW_PARAMS
-    else
-      swww img "$RANDOM_PIC" $SWWW_PARAMS
-    fi
-    sleep 0.5
-    "$SCRIPTSDIR/WallustSwww.sh"
-    sleep 0.2
-    "$SCRIPTSDIR/Refresh.sh"
+    set_wallpaper "$RANDOM_PIC"
     exit 0
   fi
 
@@ -96,11 +84,7 @@ main() {
   done
 
   if [[ $pic_index -ne -1 ]]; then
-    if [[ -n "$focused_monitor" ]]; then
-      swww img -o "$focused_monitor" "${PICS[$pic_index]}" $SWWW_PARAMS
-    else
-      swww img "${PICS[$pic_index]}" $SWWW_PARAMS
-    fi
+    set_wallpaper "${PICS[$pic_index]}"
   else
     echo "Image not found."
     exit 1
@@ -114,9 +98,3 @@ if pidof rofi > /dev/null; then
 fi
 
 main
-
-sleep 0.5
-"$SCRIPTSDIR/WallustSwww.sh"
-
-sleep 0.2
-"$SCRIPTSDIR/Refresh.sh"
