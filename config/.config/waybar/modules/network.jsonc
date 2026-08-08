@@ -19,9 +19,9 @@
 		"max-length": 2,
 		// "align":
 		// "justify":
-		"on-click": "nm-connection-editor",
-		// "on-click-middle":
-		"on-click-right": "nmcli radio wifi off && notify-send 'Wi-Fi Disabled' -i 'network-wireless-off' -h string:x-canonical-private-synchronous:network",
+		"on-click": "hyprctl dispatch exec \"[float;center;size 720 520] ghostty --title=Wi-Fi -e ~/.config/waybar/scripts/network.sh\"",
+		"on-click-middle": "nm-connection-editor",
+		"on-click-right": "~/.config/waybar/scripts/network.sh toggle",
 		// "on-update":
 		// "on-scroll-up":
 		// "on-scroll-down":

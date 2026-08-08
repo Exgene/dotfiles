@@ -88,28 +88,62 @@ select_network() {
 		"--reverse"
 	)
 
-	BSSID=$(fzf "${options[@]}" <<< "$NETWORKS" | awk '{print $1}')
-	case $BSSID in
-		'')
-			exit 1
-			;;
-		'*')
-			notify-send "Wi-Fi" "Already connected to this network" \
-				-i "package-install"
-			exit 1
-			;;
-	esac
+	local selected
+	selected=$(fzf "${options[@]}" <<< "$NETWORKS")
+	if [[ -z $selected ]]; then
+		exit 1
+	fi
+
+	# IN-USE column is "*" when connected; BSSID is then field 2
+	if [[ $selected == \** ]]; then
+		notify-send "Wi-Fi" "Already connected to this network" \
+			-i "package-install"
+		exit 1
+	fi
+
+	BSSID=$(awk '{print $1}' <<< "$selected")
+	SSID=$(awk '{
+		# fields: BSSID MODE CHAN RATE SIGNAL BARS SECURITY SSID...
+		# nmcli: IN-USE BSSID SSID MODE CHAN RATE SIGNAL BARS SECURITY
+		ssid=""
+		for (i = 2; i <= NF; i++) {
+			if ($i == "Infra" || $i == "Ad-Hoc" || $i == "N/A") break
+			ssid = (ssid == "" ? $i : ssid " " $i)
+		}
+		print ssid
+	}' <<< "$selected")
 }
 
 connect() {
-	printf "Connecting...\n"
+	printf "Connecting to %s...\n" "${SSID:-$BSSID}"
 
-	if ! nmcli -a device wifi connect "$BSSID"; then
+	# Prefer SSID so known connections (saved password) work; fall back to BSSID
+	if [[ -n $SSID ]] && nmcli -t -f NAME connection show | grep -Fxq "$SSID"; then
+		if ! nmcli connection up id "$SSID"; then
+			notify-send "Wi-Fi" "Failed to connect to $SSID" -i "package-purge"
+			exit 1
+		fi
+	elif ! nmcli --ask device wifi connect "$BSSID"; then
 		notify-send "Wi-Fi" "Failed to connect" -i "package-purge"
 		exit 1
 	fi
 
-	notify-send "Wi-Fi" "Successfully connected" -i "package-install"
+	notify-send "Wi-Fi" "Connected to ${SSID:-$BSSID}" -i "package-install"
+}
+
+toggle() {
+	local state
+	state=$(nmcli radio wifi)
+
+	if [[ $state == enabled ]]; then
+		nmcli radio wifi off
+		notify-send "Wi-Fi Disabled" -i "network-wireless-off" \
+			-h string:x-canonical-private-synchronous:network
+	else
+		nmcli radio wifi on
+		notify-send "Wi-Fi Enabled" -i "network-wireless-on" \
+			-h string:x-canonical-private-synchronous:network
+	fi
 }
 
 main() {
@@ -126,4 +160,7 @@ main() {
 	connect
 }
 
-main
+case "${1:-}" in
+	toggle) toggle ;;
+	*) main ;;
+esac

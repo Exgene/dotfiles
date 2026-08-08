@@ -17,6 +17,7 @@ require 'custom'
 vim.filetype.add {
   extension = {
     mdx = 'markdown',
+    journal = 'hledger',
   },
 }
 
@@ -41,6 +42,7 @@ require('lazy').setup({
   require 'plugins.md',
   require 'plugins.leetcode',
   require 'plugins.treesitter',
+  require 'plugins.smear',
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the

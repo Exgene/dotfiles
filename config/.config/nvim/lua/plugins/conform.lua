@@ -37,6 +37,14 @@ return {
         -- You can use 'stop_after_first' to run the first available formatter from the list
         javascript = { 'biome', 'prettier' },
         html = { 'prettier' },
+        hledger = { 'hledger-fmt' },
+      },
+      formatters = {
+        ['hledger-fmt'] = {
+          command = 'hledger-fmt',
+          args = { '--no-diff', '--exit-zero-on-changes', '-' },
+          stdin = true,
+        },
       },
     },
   },
