@@ -1,0 +1,21 @@
+-- /* wallust template - colors-hyprland (lua) */
+return {
+    background = "rgb(000000)",
+    foreground = "rgb(E3E3E3)",
+    color0 = "rgb(000000)",
+    color1 = "rgb(2C2C2C)",
+    color2 = "rgb(555555)",
+    color3 = "rgb(666666)",
+    color4 = "rgb(7D7D7D)",
+    color5 = "rgb(838383)",
+    color6 = "rgb(838383)",
+    color7 = "rgb(CFCFCF)",
+    color8 = "rgb(919191)",
+    color9 = "rgb(3B3B3B)",
+    color10 = "rgb(717171)",
+    color11 = "rgb(888888)",
+    color12 = "rgb(A7A7A7)",
+    color13 = "rgb(AFAFAF)",
+    color14 = "rgb(AFAFAF)",
+    color15 = "rgb(CFCFCF)",
+}
