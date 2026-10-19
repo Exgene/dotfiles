@@ -6,18 +6,24 @@ notif="$HOME/.config/swaync/images/bell.png"
 SCRIPTSDIR="$HOME/.config/hypr/scripts"
 
 
-HYPRGAMEMODE=$(hyprctl getoption animations:enabled | awk 'NR==1{print $2}')
+# Read an option; Lua configs use "a.b.c", older hyprlang used "a:b:c"
+get_opt() {
+	local out
+	out=$(hyprctl -j getoption "${1//:/.}" 2>/dev/null)
+	jq -e . >/dev/null 2>&1 <<<"$out" || out=$(hyprctl -j getoption "${1//./:}" 2>/dev/null)
+	printf '%s\n' "$out"
+}
+
+HYPRGAMEMODE=$(get_opt animations.enabled | jq -r 'if has("bool") then (if .bool then 1 else 0 end) else .int end')
 if [ "$HYPRGAMEMODE" = 1 ] ; then
-    hyprctl --batch "\
-        keyword animations:enabled 0;\
-        keyword decoration:shadow:enabled 0;\
-		keyword decoration:blur:passes 0;\
-        keyword general:gaps_in 0;\
-        keyword general:gaps_out 0;\
-        keyword general:border_size 1;\
-        keyword decoration:rounding 0"
-	
-	hyprctl keyword "windowrule opacity 1 override 1 override 1 override, ^(.*)$"
+    hyprctl eval '
+        hl.config({
+            animations = { enabled = false },
+            decoration = { shadow = { enabled = false }, blur = { passes = 0 }, rounding = 0 },
+            general = { gaps_in = 0, gaps_out = 0, border_size = 1 },
+        })
+        hl.window_rule({ match = { class = ".*" }, opacity = "1 override 1 override 1 override" })
+    '
     swww kill 
     notify-send -e -u low -i "$notif" "gamemode enabled. All animations off"
     exit
